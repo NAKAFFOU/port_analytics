@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.venv/
+__pycache__/
+*.pyc
+.venv/
+__pycache__/
+*.pyc
+data/port_analytics.db
