@@ -1,0 +1,13 @@
+# Extension profile only. SAP connectivity and extraction objects depend on the
+# deployed product, database, authorisations and approved integration method.
+source_system: SAP_S4HANA
+adapter: generic_sql
+canonical_contract:
+  required_fields:
+    - source_row_id
+    - company_code
+    - business_unit
+    - object_account
+    - transaction_date
+    - amount_source
+    - source_currency

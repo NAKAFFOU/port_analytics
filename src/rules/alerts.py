@@ -1,59 +1,100 @@
-# src/rules/alerts.py
-import sqlite3, pandas as pd
-from pathlib import Path
-from datetime import datetime
-DB_PATH = Path('data/port_analytics.db')
+from __future__ import annotations
 
-def generate_alerts():
-    conn = sqlite3.connect(DB_PATH)
-    occ  = pd.read_sql_query('SELECT * FROM occ_indicators', conn)
-    psl  = pd.read_sql_query('SELECT * FROM psl_indicators', conn)
-    thresh_df = pd.read_sql_query('SELECT * FROM alert_thresholds', conn)
-    thresh = {r['rule_name']: r for _, r in thresh_df.iterrows()}
-    ts = datetime.now().isoformat()
-    alerts = []
+import pandas as pd
 
-    # ── OCC rules ──
-    for _, row in occ.iterrows():
-        c, p = row['centre_code'], row['period_id']
-        if row['cost_variance_abs'] > thresh['cost_overrun']['threshold_val']:
-            alerts.append(('OCC',c,p,'cost_overrun',row['cost_variance_abs'],
-                thresh['cost_overrun']['threshold_val'],thresh['cost_overrun']['severity'],
-                thresh['cost_overrun']['description'],ts))
-        if row['cost_variance_pct'] > thresh['material_variance']['threshold_val']:
-            alerts.append(('OCC',c,p,'material_variance',row['cost_variance_pct'],
-                thresh['material_variance']['threshold_val'],thresh['material_variance']['severity'],
-                thresh['material_variance']['description'],ts))
-        if row['budget_consumption'] > thresh['budget_ahead']['threshold_val']:
-            alerts.append(('OCC',c,p,'budget_ahead',row['budget_consumption'],
-                thresh['budget_ahead']['threshold_val'],thresh['budget_ahead']['severity'],
-                thresh['budget_ahead']['description'],ts))
-        if (row['overhead_share_pct'] or 0) > thresh['high_overhead']['threshold_val']:
-            alerts.append(('OCC',c,p,'high_overhead',row['overhead_share_pct'],
-                thresh['high_overhead']['threshold_val'],thresh['high_overhead']['severity'],
-                thresh['high_overhead']['description'],ts))
+from src.db.schema import connect
 
-    # ── PSL rules ──
-    for _, row in psl.iterrows():
-        s, p = row['service_code'], row['period_id']
-        if row['revenue_variance_pct'] < thresh['revenue_shortfall']['threshold_val']:
-            alerts.append(('PSL',s,p,'revenue_shortfall',row['revenue_variance_pct'],
-                thresh['revenue_shortfall']['threshold_val'],thresh['revenue_shortfall']['severity'],
-                thresh['revenue_shortfall']['description'],ts))
-        if row['cost_recovery_ratio'] < thresh['low_cost_recovery']['threshold_val']:
-            alerts.append(('PSL',s,p,'low_cost_recovery',row['cost_recovery_ratio'],
-                thresh['low_cost_recovery']['threshold_val'],thresh['low_cost_recovery']['severity'],
-                thresh['low_cost_recovery']['description'],ts))
-        if row['cost_recovery_ratio'] < thresh['critical_deficit']['threshold_val']:
-            alerts.append(('PSL',s,p,'critical_deficit',row['cost_recovery_ratio'],
-                thresh['critical_deficit']['threshold_val'],thresh['critical_deficit']['severity'],
-                thresh['critical_deficit']['description'],ts))
 
-    conn.execute('DELETE FROM decision_alerts')
-    conn.executemany('''INSERT INTO decision_alerts
-        (entity_type,entity_code,period_id,rule_name,indicator_value,
-         threshold_value,severity,description,generated_at) VALUES(?,?,?,?,?,?,?,?,?)''', alerts)
-    conn.commit()
-    conn.close()
-    print(f'{len(alerts)} alerts generated.')
+def generate_alerts() -> int:
+    with connect() as conn:
+        occ = pd.read_sql_query("SELECT * FROM occ_indicators", conn)
+        psl = pd.read_sql_query("SELECT * FROM psl_indicators", conn)
+        threshold_frame = pd.read_sql_query(
+            "SELECT * FROM alert_thresholds", conn
+        )
+        thresholds = {
+            row["rule_name"]: row
+            for _, row in threshold_frame.iterrows()
+        }
+        alerts: list[tuple] = []
+
+        def append(
+            entity_type: str,
+            entity_code: str,
+            period_id: str,
+            rule: str,
+            value,
+        ) -> None:
+            if rule not in thresholds:
+                return
+            threshold = thresholds[rule]
+            alerts.append(
+                (
+                    entity_type,
+                    entity_code,
+                    period_id,
+                    rule,
+                    None if pd.isna(value) else float(value),
+                    float(threshold["threshold_val"]),
+                    threshold["severity"],
+                    threshold["description"],
+                )
+            )
+
+        for _, row in occ.iterrows():
+            if pd.isna(row.get("total_occ_cost")):
+                append(
+                    "OCC", row["centre_code"], row["period_id"],
+                    "data_quality", None,
+                )
+                continue
+
+            if not pd.isna(row.get("budget_direct")) and row["budget_direct"]:
+                if row["cost_variance_abs"] > thresholds["cost_overrun"]["threshold_val"]:
+                    append("OCC", row["centre_code"], row["period_id"], "cost_overrun", row["cost_variance_abs"])
+                if row["cost_variance_pct"] > thresholds["material_variance"]["threshold_val"]:
+                    append("OCC", row["centre_code"], row["period_id"], "material_variance", row["cost_variance_pct"])
+                if row["budget_consumption_ytd"] > thresholds["budget_ahead"]["threshold_val"]:
+                    append("OCC", row["centre_code"], row["period_id"], "budget_ahead", row["budget_consumption_ytd"])
+
+            if not pd.isna(row.get("overhead_share_pct")):
+                if row["overhead_share_pct"] > thresholds["high_overhead"]["threshold_val"]:
+                    append("OCC", row["centre_code"], row["period_id"], "high_overhead", row["overhead_share_pct"])
+
+        for _, row in psl.iterrows():
+            revenue = row.get("actual_revenue")
+            total_cost = row.get("total_attributed_cost")
+            if pd.isna(total_cost):
+                append("PSL", row["service_code"], row["period_id"], "data_quality", None)
+                continue
+
+            if (pd.isna(revenue) or float(revenue) == 0.0) and float(total_cost or 0) > 0:
+                append("PSL", row["service_code"], row["period_id"], "missing_revenue", revenue)
+            if not pd.isna(row.get("service_net_position")) and row["service_net_position"] < 0:
+                append("PSL", row["service_code"], row["period_id"], "service_deficit", row["service_net_position"])
+            if not pd.isna(row.get("analytical_margin_pct")) and row["analytical_margin_pct"] < 0:
+                append("PSL", row["service_code"], row["period_id"], "negative_margin", row["analytical_margin_pct"])
+            if not pd.isna(row.get("cost_recovery_ratio")):
+                if row["cost_recovery_ratio"] < thresholds["low_cost_recovery"]["threshold_val"]:
+                    append("PSL", row["service_code"], row["period_id"], "low_cost_recovery", row["cost_recovery_ratio"])
+                if row["cost_recovery_ratio"] < thresholds["critical_deficit"]["threshold_val"]:
+                    append("PSL", row["service_code"], row["period_id"], "critical_deficit", row["cost_recovery_ratio"])
+
+            if float(total_cost or 0) > 0 and not pd.isna(row.get("indirect_allocated_cost")):
+                indirect_share = float(row["indirect_allocated_cost"]) / float(total_cost) * 100
+                if indirect_share > thresholds["high_indirect_share"]["threshold_val"]:
+                    append("PSL", row["service_code"], row["period_id"], "high_indirect_share", indirect_share)
+
+            if not pd.isna(row.get("budgeted_revenue")) and row["budgeted_revenue"]:
+                if row["revenue_variance_pct"] < thresholds["revenue_shortfall"]["threshold_val"]:
+                    append("PSL", row["service_code"], row["period_id"], "revenue_shortfall", row["revenue_variance_pct"])
+
+        conn.execute("DELETE FROM decision_alerts")
+        conn.executemany(
+            """INSERT INTO decision_alerts
+            (entity_type,entity_code,period_id,rule_name,indicator_value,
+             threshold_value,severity,description)
+            VALUES(?,?,?,?,?,?,?,?)""",
+            alerts,
+        )
     return len(alerts)

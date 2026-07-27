@@ -1,0 +1,5 @@
+source_system,company_code,object_account,subsidiary,target_category,target_nature,sign_multiplier,valid_from,valid_to
+JDE_ORACLE,00001,611000,*,AC-PAY,COST,1,2020-01-01,
+JDE_ORACLE,00001,625000,*,AC-ENRG,COST,1,2020-01-01,
+JDE_ORACLE,00001,701100,*,RV-DUES,REVENUE,-1,2020-01-01,
+JDE_ORACLE,00001,702100,*,RV-CARGO,REVENUE,-1,2020-01-01,

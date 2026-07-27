@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="90" viewBox="0 0 180 90">
+<rect width="180" height="90" rx="12" fill="white"/>
+<circle cx="42" cy="38" r="28" fill="#172B9B"/>
+<path d="M42 12v47M25 35h34M30 57c8 7 16 7 24 0" stroke="white" stroke-width="5" fill="none" stroke-linecap="round"/>
+<circle cx="42" cy="38" r="9" fill="#F15A3A"/>
+<text x="78" y="35" font-family="Arial" font-size="18" font-weight="700" fill="#172B9B">PORT</text>
+<text x="78" y="56" font-family="Arial" font-size="14" font-weight="700" fill="#172B9B">ANALYTICS</text>
+</svg>

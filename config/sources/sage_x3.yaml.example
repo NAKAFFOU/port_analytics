@@ -1,0 +1,12 @@
+# Extension profile only. Sage X3 schemas differ by version and implementation.
+source_system: SAGE_X3
+adapter: generic_sql
+canonical_contract:
+  required_fields:
+    - source_row_id
+    - company_code
+    - business_unit
+    - object_account
+    - transaction_date
+    - amount_source
+    - source_currency
