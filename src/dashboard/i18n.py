@@ -5,12 +5,12 @@ TEXT = {
         # (see docs/DASHBOARD_DESIGN.md) — these are the six page names
         # required verbatim, not translated labels.
         "pages": {
-            "executive": "01_Vue Exécutive_Synthèse",
-            "services": "02_Résultat_Net",
-            "revenue": "03_Analyse des recettes",
-            "charges": "04_Analyses des charges",
-            "trend_result": "05_Evolution du résultat de 2020 à 2026",
-            "trend_charges": "06_Evolution des charges de 2020 à 2026",
+            "executive": "01_Summary_View",
+            "services": "02_Net Result",
+            "revenue": "003_Revenue Analysis",
+            "charges": "04_Expense Analysis",
+            "trend_result": "05_Result Trend 2020–2026",
+            "trend_charges": "06_Expense Trend 2020–2026",
         },
         # --- Sidebar shared ---
         "year": "YEAR",

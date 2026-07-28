@@ -76,13 +76,20 @@ def kpi_card(
 
 
 def plotly_layout(fig, height: int = 390):
+    # title=dict(text=...) is set explicitly (never just title_font) even
+    # when no title was set upstream: a bare title_font with no title.text
+    # left Plotly.js's title element with an undefined .text on charts
+    # that never set a title (e.g. the 05/06 trend charts), which some
+    # Plotly.js versions render as the literal string "undefined" above
+    # the chart instead of nothing.
+    existing_title = (fig.layout.title.text or "") if fig.layout.title else ""
     fig.update_layout(
         height=height,
         margin=dict(l=20, r=20, t=55, b=30),
         paper_bgcolor="rgba(255,255,255,0)",
         plot_bgcolor="rgba(255,255,255,0)",
         font=dict(family="Arial", color="#303642"),
-        title_font=dict(size=17),
+        title=dict(text=existing_title, font=dict(size=17)),
         legend_title_text="",
     )
     return fig
