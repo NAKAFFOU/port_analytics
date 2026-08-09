@@ -1,0 +1,7 @@
+source_system: GENERIC_SQL
+adapter: generic_sql
+connection:
+  sqlalchemy_url_env: SOURCE_SQLALCHEMY_URL
+datasets:
+  accounting_transactions:
+    sql_file: config/sql/generic/accounting_transactions.sql

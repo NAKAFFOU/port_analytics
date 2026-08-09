@@ -1,0 +1,35 @@
+application:
+  name: Port Analytics
+  version: "3.0"
+  environment: development
+  database_path: data/port_analytics.db
+
+source:
+  mode: DEMO                 # DEMO or DATABASE
+  active_profile: config/sources/oracle_pbi_views.yaml
+
+currency:
+  base_currency: GBP
+  default_display_currency: GBP
+  allowed_display_currencies: [GBP, EUR, USD, XOF]
+  rate_selection: LATEST_ON_OR_BEFORE
+  annual_flow_rate_policy: ANNUAL_AVERAGE
+  maximum_rate_age_days: 400
+  missing_rate_policy: ERROR
+
+pipeline:
+  reporting_year: 2025
+  reset_derived_tables_on_run: true
+  oracle_views_are_preallocated: true
+
+dashboard:
+  page_title: Port Analytics
+  language: en
+  theme: generic
+  organisation_name: Generic Public Port Organisation
+  logo_path: assets/generic_port_logo.svg
+  primary_colour: "#172B9B"
+  secondary_colour: "#168FF0"
+  accent_colour: "#F15A3A"
+  cache_ttl_seconds: 60
+  show_watermark: true

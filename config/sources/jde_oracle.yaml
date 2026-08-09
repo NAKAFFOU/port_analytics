@@ -1,0 +1,35 @@
+source_system: JDE_ORACLE
+display_name: JD Edwards EnterpriseOne on Oracle
+adapter: jde_oracle
+
+connection:
+  host_env: SOURCE_DB_HOST
+  port_env: SOURCE_DB_PORT
+  service_name_env: SOURCE_DB_SERVICE
+  user_env: SOURCE_DB_USER
+  password_env: SOURCE_DB_PASSWORD
+  thick_mode_client_env: ORACLE_CLIENT_LIB_DIR
+
+jde:
+  data_schema_env: SOURCE_DB_SCHEMA
+  default_currency_env: SOURCE_DB_DEFAULT_CURRENCY
+  ledger_type: AA
+  amount_divisor: 1.0
+  amount_multiplier: 1.0
+  arraysize: 10000
+
+mappings:
+  cost_centres: config/mappings/jde/cost_centres.csv
+  accounts: config/mappings/jde/accounts.csv
+  services: config/mappings/jde/services.csv
+
+datasets:
+  accounting_transactions:
+    enabled: true
+    sql_file: config/sql/jde/accounting_transactions.sql
+  budgets:
+    enabled: false
+    csv_file: data/import/budgets.csv
+  activity_volumes:
+    enabled: false
+    csv_file: data/import/activity_volumes.csv

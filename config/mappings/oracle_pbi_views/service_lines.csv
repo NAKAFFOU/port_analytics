@@ -1,0 +1,11 @@
+source_category,source_product,target_service_code,target_service_name,target_category_name,target_service_name_en,target_category_name_en
+Marchandises,PF-Acces Nautique,,Accès Nautique,Marchandises,Nautical Access,Cargo
+Autres Services,PF-Acces Portuaire,,Accès Portuaire,Autres Services,Port Access,Other Services
+Autres Services,PF-Autres,,Autres,Autres Services,Other,Other Services
+Domaines,PF-Expl Domaniale Port,,Exploitation Domaniale Port,Domaines,Port Estate Operations,Port Estate
+Autres Services,PF-ISPS,,ISPS,Autres Services,ISPS,Other Services
+Services Maritimes,PF-Lamenage,,Lamanage,Services Maritimes,Mooring,Maritime Services
+Autres Services,PF-Livraisons d'eau & électric,,Livraisons d'eau & électricité,Autres Services,Water & Electricity Supply,Other Services
+Services Maritimes,PF-Pilotage,,Pilotage,Services Maritimes,Pilotage,Maritime Services
+Autres Services,PF-Pont Bascule,,Pont Bascule,Autres Services,Weighbridge,Other Services
+Services Maritimes,PF-Remorquage,,Remorquage,Services Maritimes,Towage,Maritime Services

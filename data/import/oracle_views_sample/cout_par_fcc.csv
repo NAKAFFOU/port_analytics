@@ -1,0 +1,883 @@
+ANNEE,CODE_CC,DESC_CC,FAMILLE,SOUS_FAMILLE,MONTANT
+2020,2010,Port Operations Department,Charges de personnel et social,Salaires du personnel permanent,-292505537.0
+2020,2010,Port Operations Department,Charges de personnel et social,Charges sociales,-304728296.0
+2020,2010,Port Operations Department,Charges de personnel et social,Primes et indemnités,-284316228.0
+2020,2010,Port Operations Department,"Achats, matières et consommables",Consommables de bureau,-69443202.0
+2020,2010,Port Operations Department,"Achats, matières et consommables",Pièces détachées,-74021327.0
+2020,2010,Port Operations Department,"Achats, matières et consommables",Carburants et lubrifiants,-72956156.0
+2020,2010,Port Operations Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-111459956.0
+2020,2010,Port Operations Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-117449675.0
+2020,2010,Port Operations Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-121025151.0
+2020,2010,Port Operations Department,"Énergie, eau et fluides",Électricité,-67490962.0
+2020,2010,Port Operations Department,"Énergie, eau et fluides",Eau,-75604065.0
+2020,2010,Port Operations Department,"Énergie, eau et fluides",Autres énergies,-74511115.0
+2020,2010,Port Operations Department,Prestations externes et frais,Sous-traitance générale,-70878543.0
+2020,2010,Port Operations Department,Prestations externes et frais,Honoraires et conseils,-69003117.0
+2020,2010,Port Operations Department,Prestations externes et frais,Assurances,-77140713.0
+2020,2010,Port Operations Department,"Transport, déplacements et logistique",Transport du personnel,-42504861.0
+2020,2010,Port Operations Department,"Transport, déplacements et logistique",Missions et déplacements,-41019822.0
+2020,2010,Port Operations Department,Charges financières et amortissements,Amortissements des immobilisations,-51305003.0
+2020,2010,Port Operations Department,Charges financières et amortissements,Intérêts sur emprunts,-57020301.0
+2020,2010,Port Operations Department,"Impôts, risques et autres charges",Impôts et taxes directs,-33098769.0
+2020,2010,Port Operations Department,"Impôts, risques et autres charges",Pénalités et amendes,-34027808.0
+2020,2020,Engineering & Infrastructure Department,Charges de personnel et social,Salaires du personnel permanent,-314293466.0
+2020,2020,Engineering & Infrastructure Department,Charges de personnel et social,Charges sociales,-306044404.0
+2020,2020,Engineering & Infrastructure Department,Charges de personnel et social,Primes et indemnités,-324668925.0
+2020,2020,Engineering & Infrastructure Department,"Achats, matières et consommables",Consommables de bureau,-71267124.0
+2020,2020,Engineering & Infrastructure Department,"Achats, matières et consommables",Pièces détachées,-73028212.0
+2020,2020,Engineering & Infrastructure Department,"Achats, matières et consommables",Carburants et lubrifiants,-75843457.0
+2020,2020,Engineering & Infrastructure Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-117924761.0
+2020,2020,Engineering & Infrastructure Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-121874120.0
+2020,2020,Engineering & Infrastructure Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-117256199.0
+2020,2020,Engineering & Infrastructure Department,"Énergie, eau et fluides",Électricité,-74576404.0
+2020,2020,Engineering & Infrastructure Department,"Énergie, eau et fluides",Eau,-67890117.0
+2020,2020,Engineering & Infrastructure Department,"Énergie, eau et fluides",Autres énergies,-69738167.0
+2020,2020,Engineering & Infrastructure Department,Prestations externes et frais,Sous-traitance générale,-70362288.0
+2020,2020,Engineering & Infrastructure Department,Prestations externes et frais,Honoraires et conseils,-68234889.0
+2020,2020,Engineering & Infrastructure Department,Prestations externes et frais,Assurances,-69787827.0
+2020,2020,Engineering & Infrastructure Department,"Transport, déplacements et logistique",Transport du personnel,-41070099.0
+2020,2020,Engineering & Infrastructure Department,"Transport, déplacements et logistique",Missions et déplacements,-42147859.0
+2020,2020,Engineering & Infrastructure Department,Charges financières et amortissements,Amortissements des immobilisations,-55407898.0
+2020,2020,Engineering & Infrastructure Department,Charges financières et amortissements,Intérêts sur emprunts,-53346035.0
+2020,2020,Engineering & Infrastructure Department,"Impôts, risques et autres charges",Impôts et taxes directs,-32032052.0
+2020,2020,Engineering & Infrastructure Department,"Impôts, risques et autres charges",Pénalités et amendes,-31298173.0
+2020,2030,Commercial & Estate Department,Charges de personnel et social,Salaires du personnel permanent,-294566265.0
+2020,2030,Commercial & Estate Department,Charges de personnel et social,Charges sociales,-323114585.0
+2020,2030,Commercial & Estate Department,Charges de personnel et social,Primes et indemnités,-310810748.0
+2020,2030,Commercial & Estate Department,"Achats, matières et consommables",Consommables de bureau,-73607680.0
+2020,2030,Commercial & Estate Department,"Achats, matières et consommables",Pièces détachées,-69162057.0
+2020,2030,Commercial & Estate Department,"Achats, matières et consommables",Carburants et lubrifiants,-74825637.0
+2020,2030,Commercial & Estate Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-110533656.0
+2020,2030,Commercial & Estate Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-114042356.0
+2020,2030,Commercial & Estate Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-123949859.0
+2020,2030,Commercial & Estate Department,"Énergie, eau et fluides",Électricité,-73920998.0
+2020,2030,Commercial & Estate Department,"Énergie, eau et fluides",Eau,-73078040.0
+2020,2030,Commercial & Estate Department,"Énergie, eau et fluides",Autres énergies,-74373835.0
+2020,2030,Commercial & Estate Department,Prestations externes et frais,Sous-traitance générale,-75979947.0
+2020,2030,Commercial & Estate Department,Prestations externes et frais,Honoraires et conseils,-75301399.0
+2020,2030,Commercial & Estate Department,Prestations externes et frais,Assurances,-69749838.0
+2020,2030,Commercial & Estate Department,"Transport, déplacements et logistique",Transport du personnel,-40650490.0
+2020,2030,Commercial & Estate Department,"Transport, déplacements et logistique",Missions et déplacements,-42376109.0
+2020,2030,Commercial & Estate Department,Charges financières et amortissements,Amortissements des immobilisations,-52606927.0
+2020,2030,Commercial & Estate Department,Charges financières et amortissements,Intérêts sur emprunts,-52174857.0
+2020,2030,Commercial & Estate Department,"Impôts, risques et autres charges",Impôts et taxes directs,-34647990.0
+2020,2030,Commercial & Estate Department,"Impôts, risques et autres charges",Pénalités et amendes,-34344059.0
+2020,2040,Corporate Services Department,Charges de personnel et social,Salaires du personnel permanent,-296599718.0
+2020,2040,Corporate Services Department,Charges de personnel et social,Charges sociales,-311126350.0
+2020,2040,Corporate Services Department,Charges de personnel et social,Primes et indemnités,-300050788.0
+2020,2040,Corporate Services Department,"Achats, matières et consommables",Consommables de bureau,-76707658.0
+2020,2040,Corporate Services Department,"Achats, matières et consommables",Pièces détachées,-72082346.0
+2020,2040,Corporate Services Department,"Achats, matières et consommables",Carburants et lubrifiants,-70113534.0
+2020,2040,Corporate Services Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-111885231.0
+2020,2040,Corporate Services Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-116996618.0
+2020,2040,Corporate Services Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-112146924.0
+2020,2040,Corporate Services Department,"Énergie, eau et fluides",Électricité,-73358548.0
+2020,2040,Corporate Services Department,"Énergie, eau et fluides",Eau,-76537902.0
+2020,2040,Corporate Services Department,"Énergie, eau et fluides",Autres énergies,-71478915.0
+2020,2040,Corporate Services Department,Prestations externes et frais,Sous-traitance générale,-69651106.0
+2020,2040,Corporate Services Department,Prestations externes et frais,Honoraires et conseils,-77550007.0
+2020,2040,Corporate Services Department,Prestations externes et frais,Assurances,-72596692.0
+2020,2040,Corporate Services Department,"Transport, déplacements et logistique",Transport du personnel,-41008638.0
+2020,2040,Corporate Services Department,"Transport, déplacements et logistique",Missions et déplacements,-40741939.0
+2020,2040,Corporate Services Department,Charges financières et amortissements,Amortissements des immobilisations,-51403454.0
+2020,2040,Corporate Services Department,Charges financières et amortissements,Intérêts sur emprunts,-55345183.0
+2020,2040,Corporate Services Department,"Impôts, risques et autres charges",Impôts et taxes directs,-33959072.0
+2020,2040,Corporate Services Department,"Impôts, risques et autres charges",Pénalités et amendes,-32269466.0
+2020,2050,Safety & Security Department,Charges de personnel et social,Salaires du personnel permanent,-285893186.0
+2020,2050,Safety & Security Department,Charges de personnel et social,Charges sociales,-299453430.0
+2020,2050,Safety & Security Department,Charges de personnel et social,Primes et indemnités,-325649654.0
+2020,2050,Safety & Security Department,"Achats, matières et consommables",Consommables de bureau,-72795511.0
+2020,2050,Safety & Security Department,"Achats, matières et consommables",Pièces détachées,-77281446.0
+2020,2050,Safety & Security Department,"Achats, matières et consommables",Carburants et lubrifiants,-76161914.0
+2020,2050,Safety & Security Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-108066452.0
+2020,2050,Safety & Security Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-119584522.0
+2020,2050,Safety & Security Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-118950976.0
+2020,2050,Safety & Security Department,"Énergie, eau et fluides",Électricité,-72875249.0
+2020,2050,Safety & Security Department,"Énergie, eau et fluides",Eau,-70133276.0
+2020,2050,Safety & Security Department,"Énergie, eau et fluides",Autres énergies,-73930762.0
+2020,2050,Safety & Security Department,Prestations externes et frais,Sous-traitance générale,-68557255.0
+2020,2050,Safety & Security Department,Prestations externes et frais,Honoraires et conseils,-71837867.0
+2020,2050,Safety & Security Department,Prestations externes et frais,Assurances,-72030296.0
+2020,2050,Safety & Security Department,"Transport, déplacements et logistique",Transport du personnel,-46263739.0
+2020,2050,Safety & Security Department,"Transport, déplacements et logistique",Missions et déplacements,-45788944.0
+2020,2050,Safety & Security Department,Charges financières et amortissements,Amortissements des immobilisations,-52573799.0
+2020,2050,Safety & Security Department,Charges financières et amortissements,Intérêts sur emprunts,-54379462.0
+2020,2050,Safety & Security Department,"Impôts, risques et autres charges",Impôts et taxes directs,-31157242.0
+2020,2050,Safety & Security Department,"Impôts, risques et autres charges",Pénalités et amendes,-34509678.0
+2020,2060,Finance Department,Charges de personnel et social,Salaires du personnel permanent,-320295207.0
+2020,2060,Finance Department,Charges de personnel et social,Charges sociales,-295907701.0
+2020,2060,Finance Department,Charges de personnel et social,Primes et indemnités,-310423417.0
+2020,2060,Finance Department,"Achats, matières et consommables",Consommables de bureau,-73606048.0
+2020,2060,Finance Department,"Achats, matières et consommables",Pièces détachées,-68976319.0
+2020,2060,Finance Department,"Achats, matières et consommables",Carburants et lubrifiants,-75164485.0
+2020,2060,Finance Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-116639515.0
+2020,2060,Finance Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-120524894.0
+2020,2060,Finance Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-116492944.0
+2020,2060,Finance Department,"Énergie, eau et fluides",Électricité,-67430805.0
+2020,2060,Finance Department,"Énergie, eau et fluides",Eau,-70715184.0
+2020,2060,Finance Department,"Énergie, eau et fluides",Autres énergies,-67622689.0
+2020,2060,Finance Department,Prestations externes et frais,Sous-traitance générale,-76855351.0
+2020,2060,Finance Department,Prestations externes et frais,Honoraires et conseils,-76344027.0
+2020,2060,Finance Department,Prestations externes et frais,Assurances,-75866405.0
+2020,2060,Finance Department,"Transport, déplacements et logistique",Transport du personnel,-42327761.0
+2020,2060,Finance Department,"Transport, déplacements et logistique",Missions et déplacements,-40807764.0
+2020,2060,Finance Department,Charges financières et amortissements,Amortissements des immobilisations,-57252598.0
+2020,2060,Finance Department,Charges financières et amortissements,Intérêts sur emprunts,-57777403.0
+2020,2060,Finance Department,"Impôts, risques et autres charges",Impôts et taxes directs,-30732472.0
+2020,2060,Finance Department,"Impôts, risques et autres charges",Pénalités et amendes,-32561011.0
+2021,2010,Port Operations Department,Charges de personnel et social,Salaires du personnel permanent,-319782979.0
+2021,2010,Port Operations Department,Charges de personnel et social,Charges sociales,-328270938.0
+2021,2010,Port Operations Department,Charges de personnel et social,Primes et indemnités,-304727184.0
+2021,2010,Port Operations Department,"Achats, matières et consommables",Consommables de bureau,-73726206.0
+2021,2010,Port Operations Department,"Achats, matières et consommables",Pièces détachées,-80971356.0
+2021,2010,Port Operations Department,"Achats, matières et consommables",Carburants et lubrifiants,-77311096.0
+2021,2010,Port Operations Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-120105623.0
+2021,2010,Port Operations Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-121453673.0
+2021,2010,Port Operations Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-114727113.0
+2021,2010,Port Operations Department,"Énergie, eau et fluides",Électricité,-72803708.0
+2021,2010,Port Operations Department,"Énergie, eau et fluides",Eau,-74005749.0
+2021,2010,Port Operations Department,"Énergie, eau et fluides",Autres énergies,-76658393.0
+2021,2010,Port Operations Department,Prestations externes et frais,Sous-traitance générale,-72861139.0
+2021,2010,Port Operations Department,Prestations externes et frais,Honoraires et conseils,-72756216.0
+2021,2010,Port Operations Department,Prestations externes et frais,Assurances,-71174272.0
+2021,2010,Port Operations Department,"Transport, déplacements et logistique",Transport du personnel,-46267236.0
+2021,2010,Port Operations Department,"Transport, déplacements et logistique",Missions et déplacements,-43709222.0
+2021,2010,Port Operations Department,Charges financières et amortissements,Amortissements des immobilisations,-60015094.0
+2021,2010,Port Operations Department,Charges financières et amortissements,Intérêts sur emprunts,-59651068.0
+2021,2010,Port Operations Department,"Impôts, risques et autres charges",Impôts et taxes directs,-32027775.0
+2021,2010,Port Operations Department,"Impôts, risques et autres charges",Pénalités et amendes,-32825151.0
+2021,2020,Engineering & Infrastructure Department,Charges de personnel et social,Salaires du personnel permanent,-325557013.0
+2021,2020,Engineering & Infrastructure Department,Charges de personnel et social,Charges sociales,-305309822.0
+2021,2020,Engineering & Infrastructure Department,Charges de personnel et social,Primes et indemnités,-301662141.0
+2021,2020,Engineering & Infrastructure Department,"Achats, matières et consommables",Consommables de bureau,-80339157.0
+2021,2020,Engineering & Infrastructure Department,"Achats, matières et consommables",Pièces détachées,-76475358.0
+2021,2020,Engineering & Infrastructure Department,"Achats, matières et consommables",Carburants et lubrifiants,-75432505.0
+2021,2020,Engineering & Infrastructure Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-125983207.0
+2021,2020,Engineering & Infrastructure Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-126371251.0
+2021,2020,Engineering & Infrastructure Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-115904357.0
+2021,2020,Engineering & Infrastructure Department,"Énergie, eau et fluides",Électricité,-71449241.0
+2021,2020,Engineering & Infrastructure Department,"Énergie, eau et fluides",Eau,-74991288.0
+2021,2020,Engineering & Infrastructure Department,"Énergie, eau et fluides",Autres énergies,-74912071.0
+2021,2020,Engineering & Infrastructure Department,Prestations externes et frais,Sous-traitance générale,-75372647.0
+2021,2020,Engineering & Infrastructure Department,Prestations externes et frais,Honoraires et conseils,-78150681.0
+2021,2020,Engineering & Infrastructure Department,Prestations externes et frais,Assurances,-77560079.0
+2021,2020,Engineering & Infrastructure Department,"Transport, déplacements et logistique",Transport du personnel,-48512947.0
+2021,2020,Engineering & Infrastructure Department,"Transport, déplacements et logistique",Missions et déplacements,-42879003.0
+2021,2020,Engineering & Infrastructure Department,Charges financières et amortissements,Amortissements des immobilisations,-56017425.0
+2021,2020,Engineering & Infrastructure Department,Charges financières et amortissements,Intérêts sur emprunts,-55513988.0
+2021,2020,Engineering & Infrastructure Department,"Impôts, risques et autres charges",Impôts et taxes directs,-35800359.0
+2021,2020,Engineering & Infrastructure Department,"Impôts, risques et autres charges",Pénalités et amendes,-32875965.0
+2021,2030,Commercial & Estate Department,Charges de personnel et social,Salaires du personnel permanent,-304239988.0
+2021,2030,Commercial & Estate Department,Charges de personnel et social,Charges sociales,-315745369.0
+2021,2030,Commercial & Estate Department,Charges de personnel et social,Primes et indemnités,-314555139.0
+2021,2030,Commercial & Estate Department,"Achats, matières et consommables",Consommables de bureau,-73374555.0
+2021,2030,Commercial & Estate Department,"Achats, matières et consommables",Pièces détachées,-73069893.0
+2021,2030,Commercial & Estate Department,"Achats, matières et consommables",Carburants et lubrifiants,-80209308.0
+2021,2030,Commercial & Estate Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-120190952.0
+2021,2030,Commercial & Estate Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-127284679.0
+2021,2030,Commercial & Estate Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-122009162.0
+2021,2030,Commercial & Estate Department,"Énergie, eau et fluides",Électricité,-70957959.0
+2021,2030,Commercial & Estate Department,"Énergie, eau et fluides",Eau,-81015171.0
+2021,2030,Commercial & Estate Department,"Énergie, eau et fluides",Autres énergies,-79284488.0
+2021,2030,Commercial & Estate Department,Prestations externes et frais,Sous-traitance générale,-80694104.0
+2021,2030,Commercial & Estate Department,Prestations externes et frais,Honoraires et conseils,-80242186.0
+2021,2030,Commercial & Estate Department,Prestations externes et frais,Assurances,-79418784.0
+2021,2030,Commercial & Estate Department,"Transport, déplacements et logistique",Transport du personnel,-43310850.0
+2021,2030,Commercial & Estate Department,"Transport, déplacements et logistique",Missions et déplacements,-45342001.0
+2021,2030,Commercial & Estate Department,Charges financières et amortissements,Amortissements des immobilisations,-54515719.0
+2021,2030,Commercial & Estate Department,Charges financières et amortissements,Intérêts sur emprunts,-56004855.0
+2021,2030,Commercial & Estate Department,"Impôts, risques et autres charges",Impôts et taxes directs,-31969470.0
+2021,2030,Commercial & Estate Department,"Impôts, risques et autres charges",Pénalités et amendes,-33497641.0
+2021,2040,Corporate Services Department,Charges de personnel et social,Salaires du personnel permanent,-339641548.0
+2021,2040,Corporate Services Department,Charges de personnel et social,Charges sociales,-307579078.0
+2021,2040,Corporate Services Department,Charges de personnel et social,Primes et indemnités,-330681482.0
+2021,2040,Corporate Services Department,"Achats, matières et consommables",Consommables de bureau,-75245261.0
+2021,2040,Corporate Services Department,"Achats, matières et consommables",Pièces détachées,-74906016.0
+2021,2040,Corporate Services Department,"Achats, matières et consommables",Carburants et lubrifiants,-80570297.0
+2021,2040,Corporate Services Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-129558805.0
+2021,2040,Corporate Services Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-122101485.0
+2021,2040,Corporate Services Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-124860148.0
+2021,2040,Corporate Services Department,"Énergie, eau et fluides",Électricité,-72062685.0
+2021,2040,Corporate Services Department,"Énergie, eau et fluides",Eau,-73567099.0
+2021,2040,Corporate Services Department,"Énergie, eau et fluides",Autres énergies,-80691062.0
+2021,2040,Corporate Services Department,Prestations externes et frais,Sous-traitance générale,-76561621.0
+2021,2040,Corporate Services Department,Prestations externes et frais,Honoraires et conseils,-76169538.0
+2021,2040,Corporate Services Department,Prestations externes et frais,Assurances,-78351039.0
+2021,2040,Corporate Services Department,"Transport, déplacements et logistique",Transport du personnel,-42616609.0
+2021,2040,Corporate Services Department,"Transport, déplacements et logistique",Missions et déplacements,-45968759.0
+2021,2040,Corporate Services Department,Charges financières et amortissements,Amortissements des immobilisations,-56814330.0
+2021,2040,Corporate Services Department,Charges financières et amortissements,Intérêts sur emprunts,-59596084.0
+2021,2040,Corporate Services Department,"Impôts, risques et autres charges",Impôts et taxes directs,-32440783.0
+2021,2040,Corporate Services Department,"Impôts, risques et autres charges",Pénalités et amendes,-36273146.0
+2021,2050,Safety & Security Department,Charges de personnel et social,Salaires du personnel permanent,-299337936.0
+2021,2050,Safety & Security Department,Charges de personnel et social,Charges sociales,-304044794.0
+2021,2050,Safety & Security Department,Charges de personnel et social,Primes et indemnités,-322264740.0
+2021,2050,Safety & Security Department,"Achats, matières et consommables",Consommables de bureau,-77579670.0
+2021,2050,Safety & Security Department,"Achats, matières et consommables",Pièces détachées,-72915089.0
+2021,2050,Safety & Security Department,"Achats, matières et consommables",Carburants et lubrifiants,-71692598.0
+2021,2050,Safety & Security Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-127775522.0
+2021,2050,Safety & Security Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-116850917.0
+2021,2050,Safety & Security Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-122758768.0
+2021,2050,Safety & Security Department,"Énergie, eau et fluides",Électricité,-76987799.0
+2021,2050,Safety & Security Department,"Énergie, eau et fluides",Eau,-74865917.0
+2021,2050,Safety & Security Department,"Énergie, eau et fluides",Autres énergies,-76609241.0
+2021,2050,Safety & Security Department,Prestations externes et frais,Sous-traitance générale,-75963744.0
+2021,2050,Safety & Security Department,Prestations externes et frais,Honoraires et conseils,-80330592.0
+2021,2050,Safety & Security Department,Prestations externes et frais,Assurances,-72587041.0
+2021,2050,Safety & Security Department,"Transport, déplacements et logistique",Transport du personnel,-46808457.0
+2021,2050,Safety & Security Department,"Transport, déplacements et logistique",Missions et déplacements,-43771202.0
+2021,2050,Safety & Security Department,Charges financières et amortissements,Amortissements des immobilisations,-55963077.0
+2021,2050,Safety & Security Department,Charges financières et amortissements,Intérêts sur emprunts,-58156747.0
+2021,2050,Safety & Security Department,"Impôts, risques et autres charges",Impôts et taxes directs,-33120886.0
+2021,2050,Safety & Security Department,"Impôts, risques et autres charges",Pénalités et amendes,-33198073.0
+2021,2060,Finance Department,Charges de personnel et social,Salaires du personnel permanent,-329247516.0
+2021,2060,Finance Department,Charges de personnel et social,Charges sociales,-299000958.0
+2021,2060,Finance Department,Charges de personnel et social,Primes et indemnités,-316176010.0
+2021,2060,Finance Department,"Achats, matières et consommables",Consommables de bureau,-81006393.0
+2021,2060,Finance Department,"Achats, matières et consommables",Pièces détachées,-80981396.0
+2021,2060,Finance Department,"Achats, matières et consommables",Carburants et lubrifiants,-71198312.0
+2021,2060,Finance Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-116290143.0
+2021,2060,Finance Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-117172937.0
+2021,2060,Finance Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-128504405.0
+2021,2060,Finance Department,"Énergie, eau et fluides",Électricité,-79759806.0
+2021,2060,Finance Department,"Énergie, eau et fluides",Eau,-79742908.0
+2021,2060,Finance Department,"Énergie, eau et fluides",Autres énergies,-74339064.0
+2021,2060,Finance Department,Prestations externes et frais,Sous-traitance générale,-72093958.0
+2021,2060,Finance Department,Prestations externes et frais,Honoraires et conseils,-79260290.0
+2021,2060,Finance Department,Prestations externes et frais,Assurances,-77879972.0
+2021,2060,Finance Department,"Transport, déplacements et logistique",Transport du personnel,-46143678.0
+2021,2060,Finance Department,"Transport, déplacements et logistique",Missions et déplacements,-48532460.0
+2021,2060,Finance Department,Charges financières et amortissements,Amortissements des immobilisations,-58015907.0
+2021,2060,Finance Department,Charges financières et amortissements,Intérêts sur emprunts,-52878450.0
+2021,2060,Finance Department,"Impôts, risques et autres charges",Impôts et taxes directs,-35587745.0
+2021,2060,Finance Department,"Impôts, risques et autres charges",Pénalités et amendes,-33117936.0
+2022,2010,Port Operations Department,Charges de personnel et social,Salaires du personnel permanent,-344691738.0
+2022,2010,Port Operations Department,Charges de personnel et social,Charges sociales,-327154037.0
+2022,2010,Port Operations Department,Charges de personnel et social,Primes et indemnités,-337790125.0
+2022,2010,Port Operations Department,"Achats, matières et consommables",Consommables de bureau,-85126850.0
+2022,2010,Port Operations Department,"Achats, matières et consommables",Pièces détachées,-84458836.0
+2022,2010,Port Operations Department,"Achats, matières et consommables",Carburants et lubrifiants,-75957588.0
+2022,2010,Port Operations Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-127509856.0
+2022,2010,Port Operations Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-124859208.0
+2022,2010,Port Operations Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-119930647.0
+2022,2010,Port Operations Department,"Énergie, eau et fluides",Électricité,-83613178.0
+2022,2010,Port Operations Department,"Énergie, eau et fluides",Eau,-82101890.0
+2022,2010,Port Operations Department,"Énergie, eau et fluides",Autres énergies,-77870940.0
+2022,2010,Port Operations Department,Prestations externes et frais,Sous-traitance générale,-83276104.0
+2022,2010,Port Operations Department,Prestations externes et frais,Honoraires et conseils,-81138396.0
+2022,2010,Port Operations Department,Prestations externes et frais,Assurances,-79740025.0
+2022,2010,Port Operations Department,"Transport, déplacements et logistique",Transport du personnel,-45015432.0
+2022,2010,Port Operations Department,"Transport, déplacements et logistique",Missions et déplacements,-45459150.0
+2022,2010,Port Operations Department,Charges financières et amortissements,Amortissements des immobilisations,-63657108.0
+2022,2010,Port Operations Department,Charges financières et amortissements,Intérêts sur emprunts,-63833229.0
+2022,2010,Port Operations Department,"Impôts, risques et autres charges",Impôts et taxes directs,-36481371.0
+2022,2010,Port Operations Department,"Impôts, risques et autres charges",Pénalités et amendes,-37948070.0
+2022,2020,Engineering & Infrastructure Department,Charges de personnel et social,Salaires du personnel permanent,-342241536.0
+2022,2020,Engineering & Infrastructure Department,Charges de personnel et social,Charges sociales,-321664709.0
+2022,2020,Engineering & Infrastructure Department,Charges de personnel et social,Primes et indemnités,-320686669.0
+2022,2020,Engineering & Infrastructure Department,"Achats, matières et consommables",Consommables de bureau,-78393136.0
+2022,2020,Engineering & Infrastructure Department,"Achats, matières et consommables",Pièces détachées,-85055180.0
+2022,2020,Engineering & Infrastructure Department,"Achats, matières et consommables",Carburants et lubrifiants,-83895157.0
+2022,2020,Engineering & Infrastructure Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-135397567.0
+2022,2020,Engineering & Infrastructure Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-136087262.0
+2022,2020,Engineering & Infrastructure Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-123657381.0
+2022,2020,Engineering & Infrastructure Department,"Énergie, eau et fluides",Électricité,-77730808.0
+2022,2020,Engineering & Infrastructure Department,"Énergie, eau et fluides",Eau,-76075950.0
+2022,2020,Engineering & Infrastructure Department,"Énergie, eau et fluides",Autres énergies,-83714644.0
+2022,2020,Engineering & Infrastructure Department,Prestations externes et frais,Sous-traitance générale,-84887741.0
+2022,2020,Engineering & Infrastructure Department,Prestations externes et frais,Honoraires et conseils,-79499701.0
+2022,2020,Engineering & Infrastructure Department,Prestations externes et frais,Assurances,-81916349.0
+2022,2020,Engineering & Infrastructure Department,"Transport, déplacements et logistique",Transport du personnel,-45995811.0
+2022,2020,Engineering & Infrastructure Department,"Transport, déplacements et logistique",Missions et déplacements,-51242195.0
+2022,2020,Engineering & Infrastructure Department,Charges financières et amortissements,Amortissements des immobilisations,-63500623.0
+2022,2020,Engineering & Infrastructure Department,Charges financières et amortissements,Intérêts sur emprunts,-64444576.0
+2022,2020,Engineering & Infrastructure Department,"Impôts, risques et autres charges",Impôts et taxes directs,-37827166.0
+2022,2020,Engineering & Infrastructure Department,"Impôts, risques et autres charges",Pénalités et amendes,-38185687.0
+2022,2030,Commercial & Estate Department,Charges de personnel et social,Salaires du personnel permanent,-315824047.0
+2022,2030,Commercial & Estate Department,Charges de personnel et social,Charges sociales,-349538604.0
+2022,2030,Commercial & Estate Department,Charges de personnel et social,Primes et indemnités,-330384518.0
+2022,2030,Commercial & Estate Department,"Achats, matières et consommables",Consommables de bureau,-85414201.0
+2022,2030,Commercial & Estate Department,"Achats, matières et consommables",Pièces détachées,-83964096.0
+2022,2030,Commercial & Estate Department,"Achats, matières et consommables",Carburants et lubrifiants,-84661389.0
+2022,2030,Commercial & Estate Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-134496188.0
+2022,2030,Commercial & Estate Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-124681027.0
+2022,2030,Commercial & Estate Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-134074402.0
+2022,2030,Commercial & Estate Department,"Énergie, eau et fluides",Électricité,-76135745.0
+2022,2030,Commercial & Estate Department,"Énergie, eau et fluides",Eau,-84752770.0
+2022,2030,Commercial & Estate Department,"Énergie, eau et fluides",Autres énergies,-84599691.0
+2022,2030,Commercial & Estate Department,Prestations externes et frais,Sous-traitance générale,-77425225.0
+2022,2030,Commercial & Estate Department,Prestations externes et frais,Honoraires et conseils,-84125949.0
+2022,2030,Commercial & Estate Department,Prestations externes et frais,Assurances,-80107864.0
+2022,2030,Commercial & Estate Department,"Transport, déplacements et logistique",Transport du personnel,-47015125.0
+2022,2030,Commercial & Estate Department,"Transport, déplacements et logistique",Missions et déplacements,-50331838.0
+2022,2030,Commercial & Estate Department,Charges financières et amortissements,Amortissements des immobilisations,-58112578.0
+2022,2030,Commercial & Estate Department,Charges financières et amortissements,Intérêts sur emprunts,-56387662.0
+2022,2030,Commercial & Estate Department,"Impôts, risques et autres charges",Impôts et taxes directs,-34692634.0
+2022,2030,Commercial & Estate Department,"Impôts, risques et autres charges",Pénalités et amendes,-35378429.0
+2022,2040,Corporate Services Department,Charges de personnel et social,Salaires du personnel permanent,-355591518.0
+2022,2040,Corporate Services Department,Charges de personnel et social,Charges sociales,-360448314.0
+2022,2040,Corporate Services Department,Charges de personnel et social,Primes et indemnités,-327871220.0
+2022,2040,Corporate Services Department,"Achats, matières et consommables",Consommables de bureau,-82151155.0
+2022,2040,Corporate Services Department,"Achats, matières et consommables",Pièces détachées,-79424151.0
+2022,2040,Corporate Services Department,"Achats, matières et consommables",Carburants et lubrifiants,-85981855.0
+2022,2040,Corporate Services Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-129542382.0
+2022,2040,Corporate Services Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-136814679.0
+2022,2040,Corporate Services Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-121947945.0
+2022,2040,Corporate Services Department,"Énergie, eau et fluides",Électricité,-85860629.0
+2022,2040,Corporate Services Department,"Énergie, eau et fluides",Eau,-76930515.0
+2022,2040,Corporate Services Department,"Énergie, eau et fluides",Autres énergies,-85771915.0
+2022,2040,Corporate Services Department,Prestations externes et frais,Sous-traitance générale,-77910537.0
+2022,2040,Corporate Services Department,Prestations externes et frais,Honoraires et conseils,-76139207.0
+2022,2040,Corporate Services Department,Prestations externes et frais,Assurances,-79817580.0
+2022,2040,Corporate Services Department,"Transport, déplacements et logistique",Transport du personnel,-49879822.0
+2022,2040,Corporate Services Department,"Transport, déplacements et logistique",Missions et déplacements,-47072550.0
+2022,2040,Corporate Services Department,Charges financières et amortissements,Amortissements des immobilisations,-61315017.0
+2022,2040,Corporate Services Department,Charges financières et amortissements,Intérêts sur emprunts,-60513287.0
+2022,2040,Corporate Services Department,"Impôts, risques et autres charges",Impôts et taxes directs,-35667367.0
+2022,2040,Corporate Services Department,"Impôts, risques et autres charges",Pénalités et amendes,-36638684.0
+2022,2050,Safety & Security Department,Charges de personnel et social,Salaires du personnel permanent,-326715356.0
+2022,2050,Safety & Security Department,Charges de personnel et social,Charges sociales,-348222796.0
+2022,2050,Safety & Security Department,Charges de personnel et social,Primes et indemnités,-314730110.0
+2022,2050,Safety & Security Department,"Achats, matières et consommables",Consommables de bureau,-85355098.0
+2022,2050,Safety & Security Department,"Achats, matières et consommables",Pièces détachées,-80989209.0
+2022,2050,Safety & Security Department,"Achats, matières et consommables",Carburants et lubrifiants,-83030238.0
+2022,2050,Safety & Security Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-133254744.0
+2022,2050,Safety & Security Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-131967785.0
+2022,2050,Safety & Security Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-126438841.0
+2022,2050,Safety & Security Department,"Énergie, eau et fluides",Électricité,-75705816.0
+2022,2050,Safety & Security Department,"Énergie, eau et fluides",Eau,-82407792.0
+2022,2050,Safety & Security Department,"Énergie, eau et fluides",Autres énergies,-78640589.0
+2022,2050,Safety & Security Department,Prestations externes et frais,Sous-traitance générale,-78456938.0
+2022,2050,Safety & Security Department,Prestations externes et frais,Honoraires et conseils,-84480395.0
+2022,2050,Safety & Security Department,Prestations externes et frais,Assurances,-83033895.0
+2022,2050,Safety & Security Department,"Transport, déplacements et logistique",Transport du personnel,-46982181.0
+2022,2050,Safety & Security Department,"Transport, déplacements et logistique",Missions et déplacements,-47042826.0
+2022,2050,Safety & Security Department,Charges financières et amortissements,Amortissements des immobilisations,-59641823.0
+2022,2050,Safety & Security Department,Charges financières et amortissements,Intérêts sur emprunts,-59591137.0
+2022,2050,Safety & Security Department,"Impôts, risques et autres charges",Impôts et taxes directs,-35212950.0
+2022,2050,Safety & Security Department,"Impôts, risques et autres charges",Pénalités et amendes,-34358486.0
+2022,2060,Finance Department,Charges de personnel et social,Salaires du personnel permanent,-334565141.0
+2022,2060,Finance Department,Charges de personnel et social,Charges sociales,-359191893.0
+2022,2060,Finance Department,Charges de personnel et social,Primes et indemnités,-346732293.0
+2022,2060,Finance Department,"Achats, matières et consommables",Consommables de bureau,-85098307.0
+2022,2060,Finance Department,"Achats, matières et consommables",Pièces détachées,-81858307.0
+2022,2060,Finance Department,"Achats, matières et consommables",Carburants et lubrifiants,-78310712.0
+2022,2060,Finance Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-129753889.0
+2022,2060,Finance Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-119873992.0
+2022,2060,Finance Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-125043865.0
+2022,2060,Finance Department,"Énergie, eau et fluides",Électricité,-79764850.0
+2022,2060,Finance Department,"Énergie, eau et fluides",Eau,-81457606.0
+2022,2060,Finance Department,"Énergie, eau et fluides",Autres énergies,-82300291.0
+2022,2060,Finance Department,Prestations externes et frais,Sous-traitance générale,-80160700.0
+2022,2060,Finance Department,Prestations externes et frais,Honoraires et conseils,-79903247.0
+2022,2060,Finance Department,Prestations externes et frais,Assurances,-77326744.0
+2022,2060,Finance Department,"Transport, déplacements et logistique",Transport du personnel,-48151893.0
+2022,2060,Finance Department,"Transport, déplacements et logistique",Missions et déplacements,-51047990.0
+2022,2060,Finance Department,Charges financières et amortissements,Amortissements des immobilisations,-62920543.0
+2022,2060,Finance Department,Charges financières et amortissements,Intérêts sur emprunts,-57622806.0
+2022,2060,Finance Department,"Impôts, risques et autres charges",Impôts et taxes directs,-34142837.0
+2022,2060,Finance Department,"Impôts, risques et autres charges",Pénalités et amendes,-36328419.0
+2023,2010,Port Operations Department,Charges de personnel et social,Salaires du personnel permanent,-369095212.0
+2023,2010,Port Operations Department,Charges de personnel et social,Charges sociales,-330823616.0
+2023,2010,Port Operations Department,Charges de personnel et social,Primes et indemnités,-347651917.0
+2023,2010,Port Operations Department,"Achats, matières et consommables",Consommables de bureau,-85299782.0
+2023,2010,Port Operations Department,"Achats, matières et consommables",Pièces détachées,-80193843.0
+2023,2010,Port Operations Department,"Achats, matières et consommables",Carburants et lubrifiants,-86080795.0
+2023,2010,Port Operations Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-133938925.0
+2023,2010,Port Operations Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-129240000.0
+2023,2010,Port Operations Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-136973064.0
+2023,2010,Port Operations Department,"Énergie, eau et fluides",Électricité,-77978368.0
+2023,2010,Port Operations Department,"Énergie, eau et fluides",Eau,-86721312.0
+2023,2010,Port Operations Department,"Énergie, eau et fluides",Autres énergies,-86945120.0
+2023,2010,Port Operations Department,Prestations externes et frais,Sous-traitance générale,-79163484.0
+2023,2010,Port Operations Department,Prestations externes et frais,Honoraires et conseils,-82899826.0
+2023,2010,Port Operations Department,Prestations externes et frais,Assurances,-79976289.0
+2023,2010,Port Operations Department,"Transport, déplacements et logistique",Transport du personnel,-53489526.0
+2023,2010,Port Operations Department,"Transport, déplacements et logistique",Missions et déplacements,-50393041.0
+2023,2010,Port Operations Department,Charges financières et amortissements,Amortissements des immobilisations,-58876754.0
+2023,2010,Port Operations Department,Charges financières et amortissements,Intérêts sur emprunts,-60627114.0
+2023,2010,Port Operations Department,"Impôts, risques et autres charges",Impôts et taxes directs,-39538519.0
+2023,2010,Port Operations Department,"Impôts, risques et autres charges",Pénalités et amendes,-37470206.0
+2023,2020,Engineering & Infrastructure Department,Charges de personnel et social,Salaires du personnel permanent,-366714850.0
+2023,2020,Engineering & Infrastructure Department,Charges de personnel et social,Charges sociales,-360121769.0
+2023,2020,Engineering & Infrastructure Department,Charges de personnel et social,Primes et indemnités,-375900899.0
+2023,2020,Engineering & Infrastructure Department,"Achats, matières et consommables",Consommables de bureau,-84897327.0
+2023,2020,Engineering & Infrastructure Department,"Achats, matières et consommables",Pièces détachées,-89056242.0
+2023,2020,Engineering & Infrastructure Department,"Achats, matières et consommables",Carburants et lubrifiants,-88368769.0
+2023,2020,Engineering & Infrastructure Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-136158503.0
+2023,2020,Engineering & Infrastructure Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-138159388.0
+2023,2020,Engineering & Infrastructure Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-134134113.0
+2023,2020,Engineering & Infrastructure Department,"Énergie, eau et fluides",Électricité,-87654987.0
+2023,2020,Engineering & Infrastructure Department,"Énergie, eau et fluides",Eau,-84339263.0
+2023,2020,Engineering & Infrastructure Department,"Énergie, eau et fluides",Autres énergies,-88436587.0
+2023,2020,Engineering & Infrastructure Department,Prestations externes et frais,Sous-traitance générale,-86635585.0
+2023,2020,Engineering & Infrastructure Department,Prestations externes et frais,Honoraires et conseils,-83480737.0
+2023,2020,Engineering & Infrastructure Department,Prestations externes et frais,Assurances,-80953362.0
+2023,2020,Engineering & Infrastructure Department,"Transport, déplacements et logistique",Transport du personnel,-48487908.0
+2023,2020,Engineering & Infrastructure Department,"Transport, déplacements et logistique",Missions et déplacements,-51235436.0
+2023,2020,Engineering & Infrastructure Department,Charges financières et amortissements,Amortissements des immobilisations,-65171608.0
+2023,2020,Engineering & Infrastructure Department,Charges financières et amortissements,Intérêts sur emprunts,-63020701.0
+2023,2020,Engineering & Infrastructure Department,"Impôts, risques et autres charges",Impôts et taxes directs,-38368978.0
+2023,2020,Engineering & Infrastructure Department,"Impôts, risques et autres charges",Pénalités et amendes,-36510325.0
+2023,2030,Commercial & Estate Department,Charges de personnel et social,Salaires du personnel permanent,-331052933.0
+2023,2030,Commercial & Estate Department,Charges de personnel et social,Charges sociales,-341311350.0
+2023,2030,Commercial & Estate Department,Charges de personnel et social,Primes et indemnités,-340621048.0
+2023,2030,Commercial & Estate Department,"Achats, matières et consommables",Consommables de bureau,-81663171.0
+2023,2030,Commercial & Estate Department,"Achats, matières et consommables",Pièces détachées,-84248719.0
+2023,2030,Commercial & Estate Department,"Achats, matières et consommables",Carburants et lubrifiants,-79536307.0
+2023,2030,Commercial & Estate Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-129001238.0
+2023,2030,Commercial & Estate Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-137684150.0
+2023,2030,Commercial & Estate Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-137918152.0
+2023,2030,Commercial & Estate Department,"Énergie, eau et fluides",Électricité,-78666666.0
+2023,2030,Commercial & Estate Department,"Énergie, eau et fluides",Eau,-82694021.0
+2023,2030,Commercial & Estate Department,"Énergie, eau et fluides",Autres énergies,-84277559.0
+2023,2030,Commercial & Estate Department,Prestations externes et frais,Sous-traitance générale,-82789903.0
+2023,2030,Commercial & Estate Department,Prestations externes et frais,Honoraires et conseils,-80339271.0
+2023,2030,Commercial & Estate Department,Prestations externes et frais,Assurances,-82841150.0
+2023,2030,Commercial & Estate Department,"Transport, déplacements et logistique",Transport du personnel,-53115650.0
+2023,2030,Commercial & Estate Department,"Transport, déplacements et logistique",Missions et déplacements,-50858362.0
+2023,2030,Commercial & Estate Department,Charges financières et amortissements,Amortissements des immobilisations,-64553284.0
+2023,2030,Commercial & Estate Department,Charges financières et amortissements,Intérêts sur emprunts,-65971386.0
+2023,2030,Commercial & Estate Department,"Impôts, risques et autres charges",Impôts et taxes directs,-39101808.0
+2023,2030,Commercial & Estate Department,"Impôts, risques et autres charges",Pénalités et amendes,-37068651.0
+2023,2040,Corporate Services Department,Charges de personnel et social,Salaires du personnel permanent,-327526449.0
+2023,2040,Corporate Services Department,Charges de personnel et social,Charges sociales,-344564108.0
+2023,2040,Corporate Services Department,Charges de personnel et social,Primes et indemnités,-364353189.0
+2023,2040,Corporate Services Department,"Achats, matières et consommables",Consommables de bureau,-87923330.0
+2023,2040,Corporate Services Department,"Achats, matières et consommables",Pièces détachées,-89096012.0
+2023,2040,Corporate Services Department,"Achats, matières et consommables",Carburants et lubrifiants,-82827987.0
+2023,2040,Corporate Services Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-138689378.0
+2023,2040,Corporate Services Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-134910174.0
+2023,2040,Corporate Services Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-135982105.0
+2023,2040,Corporate Services Department,"Énergie, eau et fluides",Électricité,-80500007.0
+2023,2040,Corporate Services Department,"Énergie, eau et fluides",Eau,-80486905.0
+2023,2040,Corporate Services Department,"Énergie, eau et fluides",Autres énergies,-83025205.0
+2023,2040,Corporate Services Department,Prestations externes et frais,Sous-traitance générale,-78253762.0
+2023,2040,Corporate Services Department,Prestations externes et frais,Honoraires et conseils,-81855759.0
+2023,2040,Corporate Services Department,Prestations externes et frais,Assurances,-85878913.0
+2023,2040,Corporate Services Department,"Transport, déplacements et logistique",Transport du personnel,-49593311.0
+2023,2040,Corporate Services Department,"Transport, déplacements et logistique",Missions et déplacements,-47909475.0
+2023,2040,Corporate Services Department,Charges financières et amortissements,Amortissements des immobilisations,-62546475.0
+2023,2040,Corporate Services Department,Charges financières et amortissements,Intérêts sur emprunts,-59557699.0
+2023,2040,Corporate Services Department,"Impôts, risques et autres charges",Impôts et taxes directs,-38345272.0
+2023,2040,Corporate Services Department,"Impôts, risques et autres charges",Pénalités et amendes,-35203329.0
+2023,2050,Safety & Security Department,Charges de personnel et social,Salaires du personnel permanent,-346645963.0
+2023,2050,Safety & Security Department,Charges de personnel et social,Charges sociales,-355038702.0
+2023,2050,Safety & Security Department,Charges de personnel et social,Primes et indemnités,-328571083.0
+2023,2050,Safety & Security Department,"Achats, matières et consommables",Consommables de bureau,-85452073.0
+2023,2050,Safety & Security Department,"Achats, matières et consommables",Pièces détachées,-79504938.0
+2023,2050,Safety & Security Department,"Achats, matières et consommables",Carburants et lubrifiants,-83328543.0
+2023,2050,Safety & Security Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-125604986.0
+2023,2050,Safety & Security Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-131775681.0
+2023,2050,Safety & Security Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-128633397.0
+2023,2050,Safety & Security Department,"Énergie, eau et fluides",Électricité,-81746871.0
+2023,2050,Safety & Security Department,"Énergie, eau et fluides",Eau,-86841712.0
+2023,2050,Safety & Security Department,"Énergie, eau et fluides",Autres énergies,-82360063.0
+2023,2050,Safety & Security Department,Prestations externes et frais,Sous-traitance générale,-86733573.0
+2023,2050,Safety & Security Department,Prestations externes et frais,Honoraires et conseils,-87670881.0
+2023,2050,Safety & Security Department,Prestations externes et frais,Assurances,-80872198.0
+2023,2050,Safety & Security Department,"Transport, déplacements et logistique",Transport du personnel,-47324401.0
+2023,2050,Safety & Security Department,"Transport, déplacements et logistique",Missions et déplacements,-46884407.0
+2023,2050,Safety & Security Department,Charges financières et amortissements,Amortissements des immobilisations,-63180090.0
+2023,2050,Safety & Security Department,Charges financières et amortissements,Intérêts sur emprunts,-67230856.0
+2023,2050,Safety & Security Department,"Impôts, risques et autres charges",Impôts et taxes directs,-36908091.0
+2023,2050,Safety & Security Department,"Impôts, risques et autres charges",Pénalités et amendes,-38492461.0
+2023,2060,Finance Department,Charges de personnel et social,Salaires du personnel permanent,-365720582.0
+2023,2060,Finance Department,Charges de personnel et social,Charges sociales,-359342303.0
+2023,2060,Finance Department,Charges de personnel et social,Primes et indemnités,-364390533.0
+2023,2060,Finance Department,"Achats, matières et consommables",Consommables de bureau,-89051224.0
+2023,2060,Finance Department,"Achats, matières et consommables",Pièces détachées,-80251613.0
+2023,2060,Finance Department,"Achats, matières et consommables",Carburants et lubrifiants,-78152368.0
+2023,2060,Finance Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-127520974.0
+2023,2060,Finance Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-127030024.0
+2023,2060,Finance Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-137224547.0
+2023,2060,Finance Department,"Énergie, eau et fluides",Électricité,-84528070.0
+2023,2060,Finance Department,"Énergie, eau et fluides",Eau,-80469815.0
+2023,2060,Finance Department,"Énergie, eau et fluides",Autres énergies,-86117280.0
+2023,2060,Finance Department,Prestations externes et frais,Sous-traitance générale,-86908196.0
+2023,2060,Finance Department,Prestations externes et frais,Honoraires et conseils,-79881314.0
+2023,2060,Finance Department,Prestations externes et frais,Assurances,-85035672.0
+2023,2060,Finance Department,"Transport, déplacements et logistique",Transport du personnel,-52011402.0
+2023,2060,Finance Department,"Transport, déplacements et logistique",Missions et déplacements,-47554006.0
+2023,2060,Finance Department,Charges financières et amortissements,Amortissements des immobilisations,-65642119.0
+2023,2060,Finance Department,Charges financières et amortissements,Intérêts sur emprunts,-66921327.0
+2023,2060,Finance Department,"Impôts, risques et autres charges",Impôts et taxes directs,-35631545.0
+2023,2060,Finance Department,"Impôts, risques et autres charges",Pénalités et amendes,-35196531.0
+2024,2010,Port Operations Department,Charges de personnel et social,Salaires du personnel permanent,-383319601.0
+2024,2010,Port Operations Department,Charges de personnel et social,Charges sociales,-370536657.0
+2024,2010,Port Operations Department,Charges de personnel et social,Primes et indemnités,-346014693.0
+2024,2010,Port Operations Department,"Achats, matières et consommables",Consommables de bureau,-92893224.0
+2024,2010,Port Operations Department,"Achats, matières et consommables",Pièces détachées,-90442499.0
+2024,2010,Port Operations Department,"Achats, matières et consommables",Carburants et lubrifiants,-85138942.0
+2024,2010,Port Operations Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-137804231.0
+2024,2010,Port Operations Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-136677685.0
+2024,2010,Port Operations Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-139316164.0
+2024,2010,Port Operations Department,"Énergie, eau et fluides",Électricité,-85066196.0
+2024,2010,Port Operations Department,"Énergie, eau et fluides",Eau,-91257831.0
+2024,2010,Port Operations Department,"Énergie, eau et fluides",Autres énergies,-90925991.0
+2024,2010,Port Operations Department,Prestations externes et frais,Sous-traitance générale,-82195463.0
+2024,2010,Port Operations Department,Prestations externes et frais,Honoraires et conseils,-92612393.0
+2024,2010,Port Operations Department,Prestations externes et frais,Assurances,-88651427.0
+2024,2010,Port Operations Department,"Transport, déplacements et logistique",Transport du personnel,-54602193.0
+2024,2010,Port Operations Department,"Transport, déplacements et logistique",Missions et déplacements,-53715012.0
+2024,2010,Port Operations Department,Charges financières et amortissements,Amortissements des immobilisations,-64660675.0
+2024,2010,Port Operations Department,Charges financières et amortissements,Intérêts sur emprunts,-67385720.0
+2024,2010,Port Operations Department,"Impôts, risques et autres charges",Impôts et taxes directs,-41701262.0
+2024,2010,Port Operations Department,"Impôts, risques et autres charges",Pénalités et amendes,-37889822.0
+2024,2020,Engineering & Infrastructure Department,Charges de personnel et social,Salaires du personnel permanent,-381166239.0
+2024,2020,Engineering & Infrastructure Department,Charges de personnel et social,Charges sociales,-367352773.0
+2024,2020,Engineering & Infrastructure Department,Charges de personnel et social,Primes et indemnités,-364555798.0
+2024,2020,Engineering & Infrastructure Department,"Achats, matières et consommables",Consommables de bureau,-86215297.0
+2024,2020,Engineering & Infrastructure Department,"Achats, matières et consommables",Pièces détachées,-89813899.0
+2024,2020,Engineering & Infrastructure Department,"Achats, matières et consommables",Carburants et lubrifiants,-84179058.0
+2024,2020,Engineering & Infrastructure Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-146054186.0
+2024,2020,Engineering & Infrastructure Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-145645286.0
+2024,2020,Engineering & Infrastructure Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-131144887.0
+2024,2020,Engineering & Infrastructure Department,"Énergie, eau et fluides",Électricité,-91648268.0
+2024,2020,Engineering & Infrastructure Department,"Énergie, eau et fluides",Eau,-83880257.0
+2024,2020,Engineering & Infrastructure Department,"Énergie, eau et fluides",Autres énergies,-86570149.0
+2024,2020,Engineering & Infrastructure Department,Prestations externes et frais,Sous-traitance générale,-88343840.0
+2024,2020,Engineering & Infrastructure Department,Prestations externes et frais,Honoraires et conseils,-85526090.0
+2024,2020,Engineering & Infrastructure Department,Prestations externes et frais,Assurances,-81259566.0
+2024,2020,Engineering & Infrastructure Department,"Transport, déplacements et logistique",Transport du personnel,-54764763.0
+2024,2020,Engineering & Infrastructure Department,"Transport, déplacements et logistique",Missions et déplacements,-49874886.0
+2024,2020,Engineering & Infrastructure Department,Charges financières et amortissements,Amortissements des immobilisations,-62620215.0
+2024,2020,Engineering & Infrastructure Department,Charges financières et amortissements,Intérêts sur emprunts,-67970699.0
+2024,2020,Engineering & Infrastructure Department,"Impôts, risques et autres charges",Impôts et taxes directs,-38274897.0
+2024,2020,Engineering & Infrastructure Department,"Impôts, risques et autres charges",Pénalités et amendes,-41234534.0
+2024,2030,Commercial & Estate Department,Charges de personnel et social,Salaires du personnel permanent,-375691756.0
+2024,2030,Commercial & Estate Department,Charges de personnel et social,Charges sociales,-353954795.0
+2024,2030,Commercial & Estate Department,Charges de personnel et social,Primes et indemnités,-340341290.0
+2024,2030,Commercial & Estate Department,"Achats, matières et consommables",Consommables de bureau,-92457402.0
+2024,2030,Commercial & Estate Department,"Achats, matières et consommables",Pièces détachées,-81952766.0
+2024,2030,Commercial & Estate Department,"Achats, matières et consommables",Carburants et lubrifiants,-89680509.0
+2024,2030,Commercial & Estate Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-138977405.0
+2024,2030,Commercial & Estate Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-144231113.0
+2024,2030,Commercial & Estate Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-142914595.0
+2024,2030,Commercial & Estate Department,"Énergie, eau et fluides",Électricité,-88777097.0
+2024,2030,Commercial & Estate Department,"Énergie, eau et fluides",Eau,-86888204.0
+2024,2030,Commercial & Estate Department,"Énergie, eau et fluides",Autres énergies,-90567922.0
+2024,2030,Commercial & Estate Department,Prestations externes et frais,Sous-traitance générale,-82043390.0
+2024,2030,Commercial & Estate Department,Prestations externes et frais,Honoraires et conseils,-83609044.0
+2024,2030,Commercial & Estate Department,Prestations externes et frais,Assurances,-89335968.0
+2024,2030,Commercial & Estate Department,"Transport, déplacements et logistique",Transport du personnel,-50783754.0
+2024,2030,Commercial & Estate Department,"Transport, déplacements et logistique",Missions et déplacements,-52796008.0
+2024,2030,Commercial & Estate Department,Charges financières et amortissements,Amortissements des immobilisations,-65005735.0
+2024,2030,Commercial & Estate Department,Charges financières et amortissements,Intérêts sur emprunts,-65532472.0
+2024,2030,Commercial & Estate Department,"Impôts, risques et autres charges",Impôts et taxes directs,-38741686.0
+2024,2030,Commercial & Estate Department,"Impôts, risques et autres charges",Pénalités et amendes,-40497972.0
+2024,2040,Corporate Services Department,Charges de personnel et social,Salaires du personnel permanent,-356743960.0
+2024,2040,Corporate Services Department,Charges de personnel et social,Charges sociales,-375777247.0
+2024,2040,Corporate Services Department,Charges de personnel et social,Primes et indemnités,-353681001.0
+2024,2040,Corporate Services Department,"Achats, matières et consommables",Consommables de bureau,-83972097.0
+2024,2040,Corporate Services Department,"Achats, matières et consommables",Pièces détachées,-82379589.0
+2024,2040,Corporate Services Department,"Achats, matières et consommables",Carburants et lubrifiants,-83255677.0
+2024,2040,Corporate Services Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-131785883.0
+2024,2040,Corporate Services Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-139898917.0
+2024,2040,Corporate Services Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-144309551.0
+2024,2040,Corporate Services Department,"Énergie, eau et fluides",Électricité,-83165125.0
+2024,2040,Corporate Services Department,"Énergie, eau et fluides",Eau,-83545565.0
+2024,2040,Corporate Services Department,"Énergie, eau et fluides",Autres énergies,-86807539.0
+2024,2040,Corporate Services Department,Prestations externes et frais,Sous-traitance générale,-89735445.0
+2024,2040,Corporate Services Department,Prestations externes et frais,Honoraires et conseils,-92805074.0
+2024,2040,Corporate Services Department,Prestations externes et frais,Assurances,-87300077.0
+2024,2040,Corporate Services Department,"Transport, déplacements et logistique",Transport du personnel,-50614155.0
+2024,2040,Corporate Services Department,"Transport, déplacements et logistique",Missions et déplacements,-49280645.0
+2024,2040,Corporate Services Department,Charges financières et amortissements,Amortissements des immobilisations,-62455764.0
+2024,2040,Corporate Services Department,Charges financières et amortissements,Intérêts sur emprunts,-62760559.0
+2024,2040,Corporate Services Department,"Impôts, risques et autres charges",Impôts et taxes directs,-37393019.0
+2024,2040,Corporate Services Department,"Impôts, risques et autres charges",Pénalités et amendes,-36487047.0
+2024,2050,Safety & Security Department,Charges de personnel et social,Salaires du personnel permanent,-367146215.0
+2024,2050,Safety & Security Department,Charges de personnel et social,Charges sociales,-353854670.0
+2024,2050,Safety & Security Department,Charges de personnel et social,Primes et indemnités,-389663031.0
+2024,2050,Safety & Security Department,"Achats, matières et consommables",Consommables de bureau,-87649912.0
+2024,2050,Safety & Security Department,"Achats, matières et consommables",Pièces détachées,-89404544.0
+2024,2050,Safety & Security Department,"Achats, matières et consommables",Carburants et lubrifiants,-82448084.0
+2024,2050,Safety & Security Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-146380572.0
+2024,2050,Safety & Security Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-139022244.0
+2024,2050,Safety & Security Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-146463562.0
+2024,2050,Safety & Security Department,"Énergie, eau et fluides",Électricité,-87902102.0
+2024,2050,Safety & Security Department,"Énergie, eau et fluides",Eau,-86627255.0
+2024,2050,Safety & Security Department,"Énergie, eau et fluides",Autres énergies,-86274910.0
+2024,2050,Safety & Security Department,Prestations externes et frais,Sous-traitance générale,-83155550.0
+2024,2050,Safety & Security Department,Prestations externes et frais,Honoraires et conseils,-81535768.0
+2024,2050,Safety & Security Department,Prestations externes et frais,Assurances,-92372155.0
+2024,2050,Safety & Security Department,"Transport, déplacements et logistique",Transport du personnel,-52037245.0
+2024,2050,Safety & Security Department,"Transport, déplacements et logistique",Missions et déplacements,-54554021.0
+2024,2050,Safety & Security Department,Charges financières et amortissements,Amortissements des immobilisations,-64342962.0
+2024,2050,Safety & Security Department,Charges financières et amortissements,Intérêts sur emprunts,-61359241.0
+2024,2050,Safety & Security Department,"Impôts, risques et autres charges",Impôts et taxes directs,-39859492.0
+2024,2050,Safety & Security Department,"Impôts, risques et autres charges",Pénalités et amendes,-36703331.0
+2024,2060,Finance Department,Charges de personnel et social,Salaires du personnel permanent,-347454352.0
+2024,2060,Finance Department,Charges de personnel et social,Charges sociales,-368614622.0
+2024,2060,Finance Department,Charges de personnel et social,Primes et indemnités,-355365009.0
+2024,2060,Finance Department,"Achats, matières et consommables",Consommables de bureau,-93015923.0
+2024,2060,Finance Department,"Achats, matières et consommables",Pièces détachées,-82352740.0
+2024,2060,Finance Department,"Achats, matières et consommables",Carburants et lubrifiants,-90220921.0
+2024,2060,Finance Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-141271918.0
+2024,2060,Finance Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-144865957.0
+2024,2060,Finance Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-133854191.0
+2024,2060,Finance Department,"Énergie, eau et fluides",Électricité,-87274933.0
+2024,2060,Finance Department,"Énergie, eau et fluides",Eau,-86397266.0
+2024,2060,Finance Department,"Énergie, eau et fluides",Autres énergies,-86302342.0
+2024,2060,Finance Department,Prestations externes et frais,Sous-traitance générale,-91386830.0
+2024,2060,Finance Department,Prestations externes et frais,Honoraires et conseils,-92968581.0
+2024,2060,Finance Department,Prestations externes et frais,Assurances,-84629531.0
+2024,2060,Finance Department,"Transport, déplacements et logistique",Transport du personnel,-53084468.0
+2024,2060,Finance Department,"Transport, déplacements et logistique",Missions et déplacements,-53001183.0
+2024,2060,Finance Department,Charges financières et amortissements,Amortissements des immobilisations,-67443216.0
+2024,2060,Finance Department,Charges financières et amortissements,Intérêts sur emprunts,-69338736.0
+2024,2060,Finance Department,"Impôts, risques et autres charges",Impôts et taxes directs,-37548386.0
+2024,2060,Finance Department,"Impôts, risques et autres charges",Pénalités et amendes,-37566129.0
+2025,2010,Port Operations Department,Charges de personnel et social,Salaires du personnel permanent,-386222477.0
+2025,2010,Port Operations Department,Charges de personnel et social,Charges sociales,-373133105.0
+2025,2010,Port Operations Department,Charges de personnel et social,Primes et indemnités,-385402137.0
+2025,2010,Port Operations Department,"Achats, matières et consommables",Consommables de bureau,-94723326.0
+2025,2010,Port Operations Department,"Achats, matières et consommables",Pièces détachées,-93019794.0
+2025,2010,Port Operations Department,"Achats, matières et consommables",Carburants et lubrifiants,-90982184.0
+2025,2010,Port Operations Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-146295056.0
+2025,2010,Port Operations Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-151752757.0
+2025,2010,Port Operations Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-141567250.0
+2025,2010,Port Operations Department,"Énergie, eau et fluides",Électricité,-89974513.0
+2025,2010,Port Operations Department,"Énergie, eau et fluides",Eau,-91264807.0
+2025,2010,Port Operations Department,"Énergie, eau et fluides",Autres énergies,-94529297.0
+2025,2010,Port Operations Department,Prestations externes et frais,Sous-traitance générale,-93505544.0
+2025,2010,Port Operations Department,Prestations externes et frais,Honoraires et conseils,-84051432.0
+2025,2010,Port Operations Department,Prestations externes et frais,Assurances,-85234577.0
+2025,2010,Port Operations Department,"Transport, déplacements et logistique",Transport du personnel,-52204972.0
+2025,2010,Port Operations Department,"Transport, déplacements et logistique",Missions et déplacements,-55519921.0
+2025,2010,Port Operations Department,Charges financières et amortissements,Amortissements des immobilisations,-67712268.0
+2025,2010,Port Operations Department,Charges financières et amortissements,Intérêts sur emprunts,-65077818.0
+2025,2010,Port Operations Department,"Impôts, risques et autres charges",Impôts et taxes directs,-38121390.0
+2025,2010,Port Operations Department,"Impôts, risques et autres charges",Pénalités et amendes,-41300370.0
+2025,2020,Engineering & Infrastructure Department,Charges de personnel et social,Salaires du personnel permanent,-386051398.0
+2025,2020,Engineering & Infrastructure Department,Charges de personnel et social,Charges sociales,-398824589.0
+2025,2020,Engineering & Infrastructure Department,Charges de personnel et social,Primes et indemnités,-375574826.0
+2025,2020,Engineering & Infrastructure Department,"Achats, matières et consommables",Consommables de bureau,-89338993.0
+2025,2020,Engineering & Infrastructure Department,"Achats, matières et consommables",Pièces détachées,-84164498.0
+2025,2020,Engineering & Infrastructure Department,"Achats, matières et consommables",Carburants et lubrifiants,-83656491.0
+2025,2020,Engineering & Infrastructure Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-141705246.0
+2025,2020,Engineering & Infrastructure Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-139507886.0
+2025,2020,Engineering & Infrastructure Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-138066702.0
+2025,2020,Engineering & Infrastructure Department,"Énergie, eau et fluides",Électricité,-84300760.0
+2025,2020,Engineering & Infrastructure Department,"Énergie, eau et fluides",Eau,-95199024.0
+2025,2020,Engineering & Infrastructure Department,"Énergie, eau et fluides",Autres énergies,-93622309.0
+2025,2020,Engineering & Infrastructure Department,Prestations externes et frais,Sous-traitance générale,-90358034.0
+2025,2020,Engineering & Infrastructure Department,Prestations externes et frais,Honoraires et conseils,-95059760.0
+2025,2020,Engineering & Infrastructure Department,Prestations externes et frais,Assurances,-95670481.0
+2025,2020,Engineering & Infrastructure Department,"Transport, déplacements et logistique",Transport du personnel,-54944007.0
+2025,2020,Engineering & Infrastructure Department,"Transport, déplacements et logistique",Missions et déplacements,-51918797.0
+2025,2020,Engineering & Infrastructure Department,Charges financières et amortissements,Amortissements des immobilisations,-62745850.0
+2025,2020,Engineering & Infrastructure Department,Charges financières et amortissements,Intérêts sur emprunts,-69468544.0
+2025,2020,Engineering & Infrastructure Department,"Impôts, risques et autres charges",Impôts et taxes directs,-40071324.0
+2025,2020,Engineering & Infrastructure Department,"Impôts, risques et autres charges",Pénalités et amendes,-41090991.0
+2025,2030,Commercial & Estate Department,Charges de personnel et social,Salaires du personnel permanent,-397425859.0
+2025,2030,Commercial & Estate Department,Charges de personnel et social,Charges sociales,-358803655.0
+2025,2030,Commercial & Estate Department,Charges de personnel et social,Primes et indemnités,-380036376.0
+2025,2030,Commercial & Estate Department,"Achats, matières et consommables",Consommables de bureau,-91103947.0
+2025,2030,Commercial & Estate Department,"Achats, matières et consommables",Pièces détachées,-89313088.0
+2025,2030,Commercial & Estate Department,"Achats, matières et consommables",Carburants et lubrifiants,-84299703.0
+2025,2030,Commercial & Estate Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-140021428.0
+2025,2030,Commercial & Estate Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-139727945.0
+2025,2030,Commercial & Estate Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-146474327.0
+2025,2030,Commercial & Estate Department,"Énergie, eau et fluides",Électricité,-93894889.0
+2025,2030,Commercial & Estate Department,"Énergie, eau et fluides",Eau,-87286092.0
+2025,2030,Commercial & Estate Department,"Énergie, eau et fluides",Autres énergies,-91841138.0
+2025,2030,Commercial & Estate Department,Prestations externes et frais,Sous-traitance générale,-86765506.0
+2025,2030,Commercial & Estate Department,Prestations externes et frais,Honoraires et conseils,-94989748.0
+2025,2030,Commercial & Estate Department,Prestations externes et frais,Assurances,-93341991.0
+2025,2030,Commercial & Estate Department,"Transport, déplacements et logistique",Transport du personnel,-54026276.0
+2025,2030,Commercial & Estate Department,"Transport, déplacements et logistique",Missions et déplacements,-53310697.0
+2025,2030,Commercial & Estate Department,Charges financières et amortissements,Amortissements des immobilisations,-65321048.0
+2025,2030,Commercial & Estate Department,Charges financières et amortissements,Intérêts sur emprunts,-65403262.0
+2025,2030,Commercial & Estate Department,"Impôts, risques et autres charges",Impôts et taxes directs,-42886168.0
+2025,2030,Commercial & Estate Department,"Impôts, risques et autres charges",Pénalités et amendes,-39697694.0
+2025,2040,Corporate Services Department,Charges de personnel et social,Salaires du personnel permanent,-376317427.0
+2025,2040,Corporate Services Department,Charges de personnel et social,Charges sociales,-401213844.0
+2025,2040,Corporate Services Department,Charges de personnel et social,Primes et indemnités,-383839310.0
+2025,2040,Corporate Services Department,"Achats, matières et consommables",Consommables de bureau,-89949867.0
+2025,2040,Corporate Services Department,"Achats, matières et consommables",Pièces détachées,-88330671.0
+2025,2040,Corporate Services Department,"Achats, matières et consommables",Carburants et lubrifiants,-85505721.0
+2025,2040,Corporate Services Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-140298199.0
+2025,2040,Corporate Services Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-148203052.0
+2025,2040,Corporate Services Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-145578520.0
+2025,2040,Corporate Services Department,"Énergie, eau et fluides",Électricité,-92671315.0
+2025,2040,Corporate Services Department,"Énergie, eau et fluides",Eau,-85705710.0
+2025,2040,Corporate Services Department,"Énergie, eau et fluides",Autres énergies,-90032815.0
+2025,2040,Corporate Services Department,Prestations externes et frais,Sous-traitance générale,-94770417.0
+2025,2040,Corporate Services Department,Prestations externes et frais,Honoraires et conseils,-88641983.0
+2025,2040,Corporate Services Department,Prestations externes et frais,Assurances,-91898427.0
+2025,2040,Corporate Services Department,"Transport, déplacements et logistique",Transport du personnel,-50806531.0
+2025,2040,Corporate Services Department,"Transport, déplacements et logistique",Missions et déplacements,-57203806.0
+2025,2040,Corporate Services Department,Charges financières et amortissements,Amortissements des immobilisations,-68084669.0
+2025,2040,Corporate Services Department,Charges financières et amortissements,Intérêts sur emprunts,-64614829.0
+2025,2040,Corporate Services Department,"Impôts, risques et autres charges",Impôts et taxes directs,-38313059.0
+2025,2040,Corporate Services Department,"Impôts, risques et autres charges",Pénalités et amendes,-40523889.0
+2025,2050,Safety & Security Department,Charges de personnel et social,Salaires du personnel permanent,-378297222.0
+2025,2050,Safety & Security Department,Charges de personnel et social,Charges sociales,-354162160.0
+2025,2050,Safety & Security Department,Charges de personnel et social,Primes et indemnités,-401431404.0
+2025,2050,Safety & Security Department,"Achats, matières et consommables",Consommables de bureau,-94585861.0
+2025,2050,Safety & Security Department,"Achats, matières et consommables",Pièces détachées,-88934059.0
+2025,2050,Safety & Security Department,"Achats, matières et consommables",Carburants et lubrifiants,-84627980.0
+2025,2050,Safety & Security Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-149719273.0
+2025,2050,Safety & Security Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-143034129.0
+2025,2050,Safety & Security Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-147405087.0
+2025,2050,Safety & Security Department,"Énergie, eau et fluides",Électricité,-89527730.0
+2025,2050,Safety & Security Department,"Énergie, eau et fluides",Eau,-86580324.0
+2025,2050,Safety & Security Department,"Énergie, eau et fluides",Autres énergies,-93606853.0
+2025,2050,Safety & Security Department,Prestations externes et frais,Sous-traitance générale,-95428529.0
+2025,2050,Safety & Security Department,Prestations externes et frais,Honoraires et conseils,-86208605.0
+2025,2050,Safety & Security Department,Prestations externes et frais,Assurances,-90058420.0
+2025,2050,Safety & Security Department,"Transport, déplacements et logistique",Transport du personnel,-52775615.0
+2025,2050,Safety & Security Department,"Transport, déplacements et logistique",Missions et déplacements,-56818652.0
+2025,2050,Safety & Security Department,Charges financières et amortissements,Amortissements des immobilisations,-67139872.0
+2025,2050,Safety & Security Department,Charges financières et amortissements,Intérêts sur emprunts,-70623899.0
+2025,2050,Safety & Security Department,"Impôts, risques et autres charges",Impôts et taxes directs,-42288155.0
+2025,2050,Safety & Security Department,"Impôts, risques et autres charges",Pénalités et amendes,-38977046.0
+2025,2060,Finance Department,Charges de personnel et social,Salaires du personnel permanent,-390797655.0
+2025,2060,Finance Department,Charges de personnel et social,Charges sociales,-371077928.0
+2025,2060,Finance Department,Charges de personnel et social,Primes et indemnités,-398381478.0
+2025,2060,Finance Department,"Achats, matières et consommables",Consommables de bureau,-89513529.0
+2025,2060,Finance Department,"Achats, matières et consommables",Pièces détachées,-93429412.0
+2025,2060,Finance Department,"Achats, matières et consommables",Carburants et lubrifiants,-86698173.0
+2025,2060,Finance Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-139031875.0
+2025,2060,Finance Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-144807971.0
+2025,2060,Finance Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-153059348.0
+2025,2060,Finance Department,"Énergie, eau et fluides",Électricité,-89286981.0
+2025,2060,Finance Department,"Énergie, eau et fluides",Eau,-85017667.0
+2025,2060,Finance Department,"Énergie, eau et fluides",Autres énergies,-89899631.0
+2025,2060,Finance Department,Prestations externes et frais,Sous-traitance générale,-87477877.0
+2025,2060,Finance Department,Prestations externes et frais,Honoraires et conseils,-90066586.0
+2025,2060,Finance Department,Prestations externes et frais,Assurances,-89960339.0
+2025,2060,Finance Department,"Transport, déplacements et logistique",Transport du personnel,-53314593.0
+2025,2060,Finance Department,"Transport, déplacements et logistique",Missions et déplacements,-52311370.0
+2025,2060,Finance Department,Charges financières et amortissements,Amortissements des immobilisations,-64139335.0
+2025,2060,Finance Department,Charges financières et amortissements,Intérêts sur emprunts,-68916763.0
+2025,2060,Finance Department,"Impôts, risques et autres charges",Impôts et taxes directs,-40641954.0
+2025,2060,Finance Department,"Impôts, risques et autres charges",Pénalités et amendes,-38736591.0
+2026,2010,Port Operations Department,Charges de personnel et social,Salaires du personnel permanent,-360699985.0
+2026,2010,Port Operations Department,Charges de personnel et social,Charges sociales,-385823718.0
+2026,2010,Port Operations Department,Charges de personnel et social,Primes et indemnités,-390569563.0
+2026,2010,Port Operations Department,"Achats, matières et consommables",Consommables de bureau,-96586447.0
+2026,2010,Port Operations Department,"Achats, matières et consommables",Pièces détachées,-96644174.0
+2026,2010,Port Operations Department,"Achats, matières et consommables",Carburants et lubrifiants,-91065870.0
+2026,2010,Port Operations Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-147467164.0
+2026,2010,Port Operations Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-146047315.0
+2026,2010,Port Operations Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-151509151.0
+2026,2010,Port Operations Department,"Énergie, eau et fluides",Électricité,-90675958.0
+2026,2010,Port Operations Department,"Énergie, eau et fluides",Eau,-93823305.0
+2026,2010,Port Operations Department,"Énergie, eau et fluides",Autres énergies,-87389571.0
+2026,2010,Port Operations Department,Prestations externes et frais,Sous-traitance générale,-91441084.0
+2026,2010,Port Operations Department,Prestations externes et frais,Honoraires et conseils,-97865728.0
+2026,2010,Port Operations Department,Prestations externes et frais,Assurances,-89757769.0
+2026,2010,Port Operations Department,"Transport, déplacements et logistique",Transport du personnel,-56586523.0
+2026,2010,Port Operations Department,"Transport, déplacements et logistique",Missions et déplacements,-56255840.0
+2026,2010,Port Operations Department,Charges financières et amortissements,Amortissements des immobilisations,-72266897.0
+2026,2010,Port Operations Department,Charges financières et amortissements,Intérêts sur emprunts,-72272451.0
+2026,2010,Port Operations Department,"Impôts, risques et autres charges",Impôts et taxes directs,-43403974.0
+2026,2010,Port Operations Department,"Impôts, risques et autres charges",Pénalités et amendes,-40630794.0
+2026,2020,Engineering & Infrastructure Department,Charges de personnel et social,Salaires du personnel permanent,-375800069.0
+2026,2020,Engineering & Infrastructure Department,Charges de personnel et social,Charges sociales,-397510304.0
+2026,2020,Engineering & Infrastructure Department,Charges de personnel et social,Primes et indemnités,-399707179.0
+2026,2020,Engineering & Infrastructure Department,"Achats, matières et consommables",Consommables de bureau,-96620938.0
+2026,2020,Engineering & Infrastructure Department,"Achats, matières et consommables",Pièces détachées,-85866543.0
+2026,2020,Engineering & Infrastructure Department,"Achats, matières et consommables",Carburants et lubrifiants,-86284663.0
+2026,2020,Engineering & Infrastructure Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-149631403.0
+2026,2020,Engineering & Infrastructure Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-155592126.0
+2026,2020,Engineering & Infrastructure Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-157165716.0
+2026,2020,Engineering & Infrastructure Department,"Énergie, eau et fluides",Électricité,-95005926.0
+2026,2020,Engineering & Infrastructure Department,"Énergie, eau et fluides",Eau,-90984427.0
+2026,2020,Engineering & Infrastructure Department,"Énergie, eau et fluides",Autres énergies,-86670650.0
+2026,2020,Engineering & Infrastructure Department,Prestations externes et frais,Sous-traitance générale,-93552885.0
+2026,2020,Engineering & Infrastructure Department,Prestations externes et frais,Honoraires et conseils,-96623460.0
+2026,2020,Engineering & Infrastructure Department,Prestations externes et frais,Assurances,-91109227.0
+2026,2020,Engineering & Infrastructure Department,"Transport, déplacements et logistique",Transport du personnel,-56596525.0
+2026,2020,Engineering & Infrastructure Department,"Transport, déplacements et logistique",Missions et déplacements,-58212013.0
+2026,2020,Engineering & Infrastructure Department,Charges financières et amortissements,Amortissements des immobilisations,-64497218.0
+2026,2020,Engineering & Infrastructure Department,Charges financières et amortissements,Intérêts sur emprunts,-71730563.0
+2026,2020,Engineering & Infrastructure Department,"Impôts, risques et autres charges",Impôts et taxes directs,-40129529.0
+2026,2020,Engineering & Infrastructure Department,"Impôts, risques et autres charges",Pénalités et amendes,-40600893.0
+2026,2030,Commercial & Estate Department,Charges de personnel et social,Salaires du personnel permanent,-366561478.0
+2026,2030,Commercial & Estate Department,Charges de personnel et social,Charges sociales,-387382919.0
+2026,2030,Commercial & Estate Department,Charges de personnel et social,Primes et indemnités,-389259983.0
+2026,2030,Commercial & Estate Department,"Achats, matières et consommables",Consommables de bureau,-95594159.0
+2026,2030,Commercial & Estate Department,"Achats, matières et consommables",Pièces détachées,-87590423.0
+2026,2030,Commercial & Estate Department,"Achats, matières et consommables",Carburants et lubrifiants,-86420270.0
+2026,2030,Commercial & Estate Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-154561751.0
+2026,2030,Commercial & Estate Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-149395855.0
+2026,2030,Commercial & Estate Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-141602029.0
+2026,2030,Commercial & Estate Department,"Énergie, eau et fluides",Électricité,-97140938.0
+2026,2030,Commercial & Estate Department,"Énergie, eau et fluides",Eau,-87245017.0
+2026,2030,Commercial & Estate Department,"Énergie, eau et fluides",Autres énergies,-91333851.0
+2026,2030,Commercial & Estate Department,Prestations externes et frais,Sous-traitance générale,-88670302.0
+2026,2030,Commercial & Estate Department,Prestations externes et frais,Honoraires et conseils,-88687650.0
+2026,2030,Commercial & Estate Department,Prestations externes et frais,Assurances,-85525820.0
+2026,2030,Commercial & Estate Department,"Transport, déplacements et logistique",Transport du personnel,-57449940.0
+2026,2030,Commercial & Estate Department,"Transport, déplacements et logistique",Missions et déplacements,-58194929.0
+2026,2030,Commercial & Estate Department,Charges financières et amortissements,Amortissements des immobilisations,-70587613.0
+2026,2030,Commercial & Estate Department,Charges financières et amortissements,Intérêts sur emprunts,-65577030.0
+2026,2030,Commercial & Estate Department,"Impôts, risques et autres charges",Impôts et taxes directs,-40987878.0
+2026,2030,Commercial & Estate Department,"Impôts, risques et autres charges",Pénalités et amendes,-40431520.0
+2026,2040,Corporate Services Department,Charges de personnel et social,Salaires du personnel permanent,-390428697.0
+2026,2040,Corporate Services Department,Charges de personnel et social,Charges sociales,-393202412.0
+2026,2040,Corporate Services Department,Charges de personnel et social,Primes et indemnités,-381612834.0
+2026,2040,Corporate Services Department,"Achats, matières et consommables",Consommables de bureau,-88620430.0
+2026,2040,Corporate Services Department,"Achats, matières et consommables",Pièces détachées,-96272791.0
+2026,2040,Corporate Services Department,"Achats, matières et consommables",Carburants et lubrifiants,-87966267.0
+2026,2040,Corporate Services Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-144561397.0
+2026,2040,Corporate Services Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-146587912.0
+2026,2040,Corporate Services Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-141527479.0
+2026,2040,Corporate Services Department,"Énergie, eau et fluides",Électricité,-92758019.0
+2026,2040,Corporate Services Department,"Énergie, eau et fluides",Eau,-92795165.0
+2026,2040,Corporate Services Department,"Énergie, eau et fluides",Autres énergies,-98167711.0
+2026,2040,Corporate Services Department,Prestations externes et frais,Sous-traitance générale,-89200683.0
+2026,2040,Corporate Services Department,Prestations externes et frais,Honoraires et conseils,-97978106.0
+2026,2040,Corporate Services Department,Prestations externes et frais,Assurances,-93867641.0
+2026,2040,Corporate Services Department,"Transport, déplacements et logistique",Transport du personnel,-53360342.0
+2026,2040,Corporate Services Department,"Transport, déplacements et logistique",Missions et déplacements,-55608576.0
+2026,2040,Corporate Services Department,Charges financières et amortissements,Amortissements des immobilisations,-70666572.0
+2026,2040,Corporate Services Department,Charges financières et amortissements,Intérêts sur emprunts,-71234219.0
+2026,2040,Corporate Services Department,"Impôts, risques et autres charges",Impôts et taxes directs,-38715996.0
+2026,2040,Corporate Services Department,"Impôts, risques et autres charges",Pénalités et amendes,-41940615.0
+2026,2050,Safety & Security Department,Charges de personnel et social,Salaires du personnel permanent,-385523280.0
+2026,2050,Safety & Security Department,Charges de personnel et social,Charges sociales,-407523577.0
+2026,2050,Safety & Security Department,Charges de personnel et social,Primes et indemnités,-374154912.0
+2026,2050,Safety & Security Department,"Achats, matières et consommables",Consommables de bureau,-95675678.0
+2026,2050,Safety & Security Department,"Achats, matières et consommables",Pièces détachées,-93209832.0
+2026,2050,Safety & Security Department,"Achats, matières et consommables",Carburants et lubrifiants,-89934673.0
+2026,2050,Safety & Security Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-149743654.0
+2026,2050,Safety & Security Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-149420145.0
+2026,2050,Safety & Security Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-150590067.0
+2026,2050,Safety & Security Department,"Énergie, eau et fluides",Électricité,-94673736.0
+2026,2050,Safety & Security Department,"Énergie, eau et fluides",Eau,-93879877.0
+2026,2050,Safety & Security Department,"Énergie, eau et fluides",Autres énergies,-96183221.0
+2026,2050,Safety & Security Department,Prestations externes et frais,Sous-traitance générale,-93482176.0
+2026,2050,Safety & Security Department,Prestations externes et frais,Honoraires et conseils,-97019760.0
+2026,2050,Safety & Security Department,Prestations externes et frais,Assurances,-93714786.0
+2026,2050,Safety & Security Department,"Transport, déplacements et logistique",Transport du personnel,-53626108.0
+2026,2050,Safety & Security Department,"Transport, déplacements et logistique",Missions et déplacements,-54643510.0
+2026,2050,Safety & Security Department,Charges financières et amortissements,Amortissements des immobilisations,-69642290.0
+2026,2050,Safety & Security Department,Charges financières et amortissements,Intérêts sur emprunts,-71115529.0
+2026,2050,Safety & Security Department,"Impôts, risques et autres charges",Impôts et taxes directs,-38953717.0
+2026,2050,Safety & Security Department,"Impôts, risques et autres charges",Pénalités et amendes,-40139612.0
+2026,2060,Finance Department,Charges de personnel et social,Salaires du personnel permanent,-399063472.0
+2026,2060,Finance Department,Charges de personnel et social,Charges sociales,-368185213.0
+2026,2060,Finance Department,Charges de personnel et social,Primes et indemnités,-365837365.0
+2026,2060,Finance Department,"Achats, matières et consommables",Consommables de bureau,-92339986.0
+2026,2060,Finance Department,"Achats, matières et consommables",Pièces détachées,-97895118.0
+2026,2060,Finance Department,"Achats, matières et consommables",Carburants et lubrifiants,-92229992.0
+2026,2060,Finance Department,"Maintenance, infrastructures et équipements",Entretien des infrastructures portuaires,-155439036.0
+2026,2060,Finance Department,"Maintenance, infrastructures et équipements",Entretien du matériel naval,-153731375.0
+2026,2060,Finance Department,"Maintenance, infrastructures et équipements",Entretien des bâtiments,-141934046.0
+2026,2060,Finance Department,"Énergie, eau et fluides",Électricité,-96007762.0
+2026,2060,Finance Department,"Énergie, eau et fluides",Eau,-91599957.0
+2026,2060,Finance Department,"Énergie, eau et fluides",Autres énergies,-95773754.0
+2026,2060,Finance Department,Prestations externes et frais,Sous-traitance générale,-95003265.0
+2026,2060,Finance Department,Prestations externes et frais,Honoraires et conseils,-89759749.0
+2026,2060,Finance Department,Prestations externes et frais,Assurances,-86885699.0
+2026,2060,Finance Department,"Transport, déplacements et logistique",Transport du personnel,-58670759.0
+2026,2060,Finance Department,"Transport, déplacements et logistique",Missions et déplacements,-52328800.0
+2026,2060,Finance Department,Charges financières et amortissements,Amortissements des immobilisations,-73373228.0
+2026,2060,Finance Department,Charges financières et amortissements,Intérêts sur emprunts,-72347656.0
+2026,2060,Finance Department,"Impôts, risques et autres charges",Impôts et taxes directs,-42622206.0
+2026,2060,Finance Department,"Impôts, risques et autres charges",Pénalités et amendes,-44101706.0

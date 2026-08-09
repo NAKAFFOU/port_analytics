@@ -1,0 +1,94 @@
+source_system: ORACLE_PBI_VIEWS
+adapter: oracle_pbi_views
+database_type: oracle
+schema: PBI_JDE
+
+connection:
+  # Priority when resolving the connection: ORACLE_DSN > host+port+ORACLE_SERVICE > host+port+ORACLE_SID.
+  dsn_env: ORACLE_DSN
+  host_env: ORACLE_HOST
+  port_env: ORACLE_PORT
+  service_name_env: ORACLE_SERVICE
+  sid_env: ORACLE_SID
+  user_env: ORACLE_USER
+  password_env: ORACLE_PASSWORD
+  thick_mode_env: ORACLE_THICK_MODE
+  thick_mode_client_env: ORACLE_CLIENT_LIB_DIR
+
+oracle:
+  schema_env: ORACLE_SCHEMA
+  # No currency column is exposed by the PBI_JDE views. This must be set
+  # explicitly; it is never guessed.
+  default_currency_env: SOURCE_CURRENCY
+  fetch_size_env: ORACLE_FETCH_SIZE
+  query_timeout_env: ORACLE_QUERY_TIMEOUT
+  trim_text_env: TRIM_ORACLE_TEXT
+  arraysize: 10000
+  annual_fx_policy: ANNUAL_AVERAGE
+
+mappings:
+  cost_centres: config/mappings/oracle_pbi_views/cost_centres.csv
+  service_lines: config/mappings/oracle_pbi_views/service_lines.csv
+  families: config/mappings/oracle_pbi_views/families.csv
+  subfamilies: config/mappings/oracle_pbi_views/subfamilies.csv
+  accounts: config/mappings/oracle_pbi_views/accounts.csv
+
+# IMPORTANT: PBI_JDE views already apply sign inversion (* -1), the /100
+# scaling and ROUND() at the Oracle level (see docs/ORACLE_PBI_VIEWS.md and
+# docs/JDE_CONFIGURATION.md). amount_multiplier must stay 1 for every
+# dataset below — MONTANT is loaded exactly as returned by Oracle.
+#
+# Separately, cost measures (direct/indirect/cost_centre_costs) are always
+# displayed as a positive magnitude: MEASURE_CONFIG[...]["force_absolute"]
+# in src/ingestion/oracle_views.py takes abs(amount_source) for those three,
+# never for service_revenues. This makes amount_multiplier mathematically
+# inert for the cost datasets (abs(1*x) == abs(-1*x)) — it is kept at 1
+# purely so this file stays an honest record of what Oracle returns.
+datasets:
+  direct_allocations:
+    view: ADIRECTE_COUT
+    year_column: ANNEE
+    centre_column: CODE_CC
+    category_column: CATEGORIE
+    service_column: PRODUIT_FINI
+    amount_column: MONTANT
+    amount_multiplier: 1
+  indirect_allocations:
+    view: AINDIRECTE_COUT
+    year_column: ANNEE
+    category_column: CATEGORIE
+    service_column: PRODUIT_FINI
+    amount_column: MONTANT
+    amount_multiplier: 1
+  cost_centre_costs:
+    view: COUT_PAR_FCC
+    year_column: ANNEE
+    centre_column: CODE_CC
+    centre_name_column: DESC_CC
+    family_column: FAMILLE
+    subfamily_column: SOUS_FAMILLE
+    amount_column: MONTANT
+    amount_multiplier: 1
+  # CHARGES_REPARTIES exposes the same distributed cost-centre costs as
+  # COUT_PAR_FCC (verified: identical row count and total MONTANT), but with
+  # pluralised column names (FAMILLES/SOUS_FAMILLES instead of
+  # FAMILLE/SOUS_FAMILLE). It is recognised and extractable in its own right
+  # (metadata inspection, CLI --object, source_view traceability) as an
+  # alternate/cross-check source for the same COST_CENTRE_COST measure.
+  charges_reparties:
+    view: CHARGES_REPARTIES
+    year_column: ANNEE
+    centre_column: CODE_CC
+    centre_name_column: DESC_CC
+    family_column: FAMILLES
+    subfamily_column: SOUS_FAMILLES
+    amount_column: MONTANT
+    amount_multiplier: 1
+  service_revenues:
+    view: RECETTE_PF
+    year_column: ANNEE
+    category_column: CATEGORIE
+    service_column: PRODUIT_FINI
+    account_column: COMPTE
+    amount_column: MONTANT
+    amount_multiplier: 1
