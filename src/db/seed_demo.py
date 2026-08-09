@@ -1,30 +1,32 @@
 """Ce module génère exclusivement des données synthétiques à des fins de
-démonstration académique. This module exclusively generates synthetic data
+démonstration académique. 
+
+This module exclusively generates synthetic data
 for academic demonstration purposes.
 
 No row produced here is copied from, or traceable to, any real
 organisation. All codes, department names, amounts and time series are
 fabricated by the two generators below, seeded deterministically
-(``RANDOM_SEED``) so a given (granularity, year range) always reproduces
+(RANDOM_SEED) so a given (granularity, year range) always reproduces
 the same dataset.
 
 Two independent synthetic datasets are produced:
 
-1. ``seed_demo()`` — the SSC/OCC/PSL two-phase allocation demo (generic
+1. seed_demo() — the SSC/OCC/PSL two-phase allocation demo (generic
    cost centres, account categories and port service lines), covering
-   2020-2026 at annual or monthly granularity (``--granularity``).
-2. ``generate_synthetic_oracle_views()`` — a fabricated export in the
+   2020-2026 at annual or monthly granularity (--granularity).
+2. generate_synthetic_oracle_views() — a fabricated export in the
    *exact* column layout of the five PBI_JDE analytical views (see
-   ``docs/ORACLE_PBI_VIEWS.md``), used by the "pre-allocated Oracle views"
-   pipeline (``src/ingestion/oracle_views.py``) instead of a real Oracle
+   docs/ORACLE_PBI_VIEWS.md), used by the "pre-allocated Oracle views"
+   pipeline (src/ingestion/oracle_views.py) instead of a real Oracle
    extract. It shares the same generic service catalogue documented in
-   ``docs/SERVICE_CATALOG.md``, plus a fabricated cost-centre and
+   docs/SERVICE_CATALOG.md, plus a fabricated cost-centre and
    chart-of-accounts taxonomy that is not derived from any real
    organisation.
 
 Both generators share the same multi-year trend and seasonality logic
-(documented next to ``REVENUE_TREND``/``COST_TREND`` and
-``COST_WEIGHTS``/``REVENUE_WEIGHTS`` below): a 2020 traffic downturn,
+(documented next to REVENUE_TREND/COST_TREND and
+COST_WEIGHTS/REVENUE_WEIGHTS below): a 2020 traffic downturn,
 progressive recovery, and stabilised growth through 2026, with revenue
 more seasonally and cyclically volatile than cost — a plausible
 public-port pattern (pilotage/towage revenue tracks vessel calls; payroll,
@@ -48,6 +50,9 @@ RANDOM_SEED = 42
 YEAR_FROM = 2020
 YEAR_TO = 2026
 YEARS = tuple(range(YEAR_FROM, YEAR_TO + 1))
+
+
+ORACLE_FACTS_BATCH_ID = "DEMO-REVENUE-FACTS"
 
 COST_CENTRES = [
     ("SSC-ADM", "General Administration", "SSC", "SUPPORT", None),
@@ -74,6 +79,7 @@ ACCOUNT_CATEGORIES = [
     ("RV-CARGO", "Cargo Handling Fees", "REVENUE"),
     ("RV-MISC", "Ancillary Revenue", "REVENUE"),
 ]
+ACCOUNT_CATEGORY_DESC = {code: desc for code, desc, _ in ACCOUNT_CATEGORIES}
 
 SERVICE_LINES = [
     ("PSL-PIL", "Pilotage Services", "Maritime Services", "Port dues — pilotage", "Vessel calls"),
@@ -83,6 +89,7 @@ SERVICE_LINES = [
     ("PSL-STOR", "Storage & Yard Services", "Cargo & Logistics", "Storage fees", "Tonne-days in storage"),
     ("PSL-DOM", "Port Domain Concessions", "Port Estate", "Concession & rental", "Leased area (m²)"),
 ]
+SERVICE_LINE_INFO = {code: (name, category) for code, name, category, _, _ in SERVICE_LINES}
 
 ALLOC_PHASE1 = [
     ("SSC-ADM", "OCC-NAV", "DRV-HEAD", 25.0), ("SSC-ADM", "OCC-CARGO", "DRV-HEAD", 30.0),
@@ -167,15 +174,6 @@ SERVICE_BUDGETS = {"PSL-PIL": 480000, "PSL-TOW": 360000, "PSL-CARGO": 1200000, "
 SERVICE_VOLUMES = {"PSL-PIL": 2400, "PSL-TOW": 1800, "PSL-CARGO": 3600000, "PSL-NACC": 12000000, "PSL-STOR": 1200000, "PSL-DOM": 250000}
 CENTRE_CURRENCIES = {"SSC-ADM": "GBP", "SSC-IT": "EUR", "SSC-FAC": "USD", "OCC-NAV": "GBP", "OCC-CARGO": "XOF", "OCC-INFRA": "EUR", "OCC-SEC": "USD", "OCC-COMM": "GBP"}
 SERVICE_CURRENCIES = {"PSL-PIL": "GBP", "PSL-TOW": "EUR", "PSL-CARGO": "USD", "PSL-NACC": "XOF", "PSL-STOR": "EUR", "PSL-DOM": "GBP"}
-
-# Multi-year trend index (baseline = 2022 = 1.0). Reflects a plausible
-# public-port pattern: a 2020 traffic downturn, a 2021 partial recovery,
-# and stabilised growth through 2026. Revenue (traffic-driven: vessel
-# calls, cargo throughput) swings further than cost (payroll-dominated,
-# structurally sticky) — the amplitude gap below is deliberate, not
-# accidental, and is what "charges plus stables que les recettes" means
-# operationally: a service can lose revenue in a downturn far faster than
-# its largely-fixed cost base can be cut.
 REVENUE_TREND = {2020: 0.80, 2021: 0.90, 2022: 1.00, 2023: 1.07, 2024: 1.13, 2025: 1.18, 2026: 1.22}
 COST_TREND = {2020: 0.90, 2021: 0.94, 2022: 1.00, 2023: 1.04, 2024: 1.08, 2025: 1.11, 2026: 1.14}
 
@@ -184,13 +182,6 @@ def _normalised(raw):
     scale = 12 / sum(raw)
     return [x * scale for x in raw]
 
-
-# Monthly seasonality (weights normalised so sum(weights) == 12, i.e.
-# monthly_amount = annual_amount / 12 * weight[m] and sum(monthly) ==
-# annual_amount exactly). Costs use a nearly flat curve (small Q3 bump for
-# energy/overtime); revenue follows a documented vessel-traffic pattern —
-# a Q2/Q3 peak (higher call frequency in the dry season) and a trough in
-# Q4/Q1 (fewer calls, weather-driven slowdown, year-end port closures).
 COST_WEIGHTS = _normalised([1.15, 1.15, 1, 0.9, 0.9, 0.9, 1.15, 1.15, 1, 1, 1, 1])
 REVENUE_WEIGHTS = _normalised([1.2, 1.2, 1, 0.88, 0.88, 0.88, 1.2, 1.2, 1, 1, 1, 1])
 
@@ -241,9 +232,7 @@ def seed_demo(granularity: str = "monthly", year_from: int = YEAR_FROM, year_to:
     random.seed(RANDOM_SEED)
 
     with connect() as conn:
-        # This demo dataset is already English-only, so centre_name_en /
-        # service_name_en / service_category_en are left NULL — the
-        # dashboard's FR/EN lookup falls back to the base (English) name.
+
         conn.executemany(
             "INSERT INTO cost_centres(centre_code,centre_name,tier,centre_type,parent_code) VALUES(?,?,?,?,?)",
             COST_CENTRES,
@@ -272,6 +261,11 @@ def seed_demo(granularity: str = "monthly", year_from: int = YEAR_FROM, year_to:
         conn.executemany("INSERT INTO kpi_definitions VALUES(?,?,?,?,?,?,?)", KPI_DEFINITIONS)
         conn.executemany("INSERT INTO allocation_rules_phase1(source_ssc,destination_occ,driver_code,allocation_pct) VALUES(?,?,?,?)", ALLOC_PHASE1)
         conn.executemany("INSERT INTO allocation_rules_phase2(source_occ,destination_psl,driver_code,allocation_pct) VALUES(?,?,?,?)", ALLOC_PHASE2)
+        conn.execute(
+            """INSERT INTO ingestion_batches(batch_id, source_system, date_from, date_to, status)
+            VALUES(?,'DEMO',?,?,'STARTED')""",
+            (ORACLE_FACTS_BATCH_ID, date(year_from, 1, 1).isoformat(), date(year_to, 12, 31).isoformat()),
+        )
 
     fx_repository = FxRateRepository()
     for year in years:
@@ -279,9 +273,7 @@ def seed_demo(granularity: str = "monthly", year_from: int = YEAR_FROM, year_to:
             rate_date = date(year, month or 12, 1 if month else 31)
             year_drift = (year - 2022) * 0.004
             month_drift = ((month or 6) - 6) * 0.001
-            # Illustrative rates used only by DEMO mode. Database mode should
-            # load approved historical rates from ECB, treasury or a
-            # controlled CSV.
+            # Illustrative rates used only by DEMO mode. 
             demo_rates = {
                 "GBP": 1.0,
                 "EUR": 0.84 + month_drift + year_drift,
@@ -348,13 +340,7 @@ def seed_demo(granularity: str = "monthly", year_from: int = YEAR_FROM, year_to:
                     revenue_factor = random.uniform(0.94, 1.06)
                     volume_factor = random.uniform(0.93, 1.07)
                     month_num = month or 11
-                    # Recurring seasonal edge cases (same month every year):
-                    # a March channel-access dip, a November pilotage
-                    # slowdown severe enough to trip the critical-deficit
-                    # alert, and a September storage disruption — kept as
-                    # annual recurrences rather than one-off events so the
-                    # 2020-2026 evolution pages show a stable, explainable
-                    # pattern rather than unexplained yearly noise.
+
                     if service == "PSL-NACC" and month_num == 3:
                         revenue_factor, volume_factor = 0.87, 0.86
                     if service == "PSL-PIL" and month_num == 11:
@@ -375,6 +361,32 @@ def seed_demo(granularity: str = "monthly", year_from: int = YEAR_FROM, year_to:
                         VALUES('DEMO',?,?,?,?,?)""",
                         (f"DEMO-VOL-{service}-{pid}", service, pid, budget_volume * volume_factor, "service-specific unit"),
                     )
+
+                    service_name, revenue_service_category = SERVICE_LINE_INFO[service]
+                    conn.execute(
+                        """INSERT INTO oracle_view_facts(
+                            batch_id, source_system, source_schema, source_view, measure_type,
+                            reporting_year, period_id, service_category, source_service_name,
+                            service_code, account, amount_source, source_currency,
+                            fx_rate_to_base, fx_rate_date, fx_provider, amount_base, base_currency,
+                            source_row_hash
+                        ) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+                        (
+                            ORACLE_FACTS_BATCH_ID, "DEMO", "DEMO", "RECETTE_PF", "SERVICE_REVENUE",
+                            year, pid, revenue_service_category, service_name,
+                            service, ACCOUNT_CATEGORY_DESC[category], actual_source, currency,
+                            actual_base.rate, actual_base.rate_date.isoformat(), "DEMO",
+                            actual_base.amount, base_currency(),
+                            f"DEMO-REV-{service}-{pid}",
+                        ),
+                    )
+        conn.execute(
+            """UPDATE ingestion_batches SET status='COMPLETED', completed_at=datetime('now'),
+            rows_extracted=(SELECT COUNT(*) FROM oracle_view_facts WHERE batch_id=?),
+            rows_loaded=(SELECT COUNT(*) FROM oracle_view_facts WHERE batch_id=?)
+            WHERE batch_id=?""",
+            (ORACLE_FACTS_BATCH_ID, ORACLE_FACTS_BATCH_ID, ORACLE_FACTS_BATCH_ID),
+        )
         conn.commit()
 
     print(
@@ -383,16 +395,6 @@ def seed_demo(granularity: str = "monthly", year_from: int = YEAR_FROM, year_to:
     )
 
 
-# ---------------------------------------------------------------------------
-# Synthetic Oracle PBI_JDE views export — fabricated data in the exact
-# column layout of the five real analytical views, used by the
-# "pre-allocated Oracle views" pipeline (src/ingestion/oracle_views.py) as
-# a stand-in for a live Oracle extract. The service catalogue (CATEGORIE /
-# PRODUIT_FINI) matches docs/SERVICE_CATALOG.md; the cost-centre and
-# chart-of-accounts taxonomy below (SYN_COST_CENTRES / SYN_FAMILIES) is
-# fabricated for this project and is not derived from any real
-# organisation's structure.
-# ---------------------------------------------------------------------------
 
 SYN_COST_CENTRES = [
     ("2010", "Port Operations Department"),
@@ -452,9 +454,9 @@ FAMILY_COST_SHARE = {
     "Impôts, risques et autres charges": 0.03,
 }
 
-REVENUE_BASE_ANNUAL_XOF = 20_000_000_000  # baseline (2022, trend index 1.0)
-COST_BASE_ANNUAL_XOF = 14_500_000_000  # baseline (2022, trend index 1.0)
-DIRECT_COST_SHARE = 0.58  # remainder (0.42) is indirect, pooled (no source cost centre)
+REVENUE_BASE_ANNUAL_XOF = 20_000_000_000 
+COST_BASE_ANNUAL_XOF = 14_500_000_000 
+DIRECT_COST_SHARE = 0.58  
 
 
 def _write_csv(path: Path, header: list[str], rows: list[list]) -> None:
@@ -476,7 +478,7 @@ def generate_synthetic_oracle_views(
     Oracle views (see docs/ORACLE_PBI_VIEWS.md) with entirely fabricated
     amounts and labels. The real views expose no currency column and no
     sub-annual period column — both constraints are preserved here, so
-    ``granularity="monthly"`` widens ANNEE-adjacent rows across 12 rows
+    granularity="monthly" widens ANNEE-adjacent rows across 12 rows
     per year (one MONTANT per month) rather than adding a period column
     the real source does not have.
     """

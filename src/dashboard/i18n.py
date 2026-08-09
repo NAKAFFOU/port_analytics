@@ -7,7 +7,7 @@ TEXT = {
         "pages": {
             "executive": "01_Summary_View",
             "services": "02_Net Result",
-            "revenue": "003_Revenue Analysis",
+            "revenue": "03_Revenue Analysis",
             "charges": "04_Expense Analysis",
             "trend_result": "05_Result Trend 2020–2026",
             "trend_charges": "06_Expense Trend 2020–2026",
@@ -121,7 +121,7 @@ TEXT = {
             "subfamily_filter": "Sub-family",
             "no_data": "No data for the current selection.",
             "total_row": "Total",
-            "matrix_title": "Net result matrix — family / sub-family",
+            "matrix_title": "Net result matrix by category",
             "treemap_title": "Net result breakdown — family → sub-family",
             "col_category": "Category",
             "col_service": "Service line",

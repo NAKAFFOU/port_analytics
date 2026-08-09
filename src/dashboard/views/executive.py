@@ -191,28 +191,6 @@ def render(data, context):
     net = revenue - total_cost
     margin = net / revenue * 100 if revenue else 0.0
 
-    spark = _last_12_periods_series(
-        psl_source, selected_category, selected_service,
-        t["all_categories"], t["all_services"], context.display_rate,
-    )
-
-    columns = st.columns(6)
-    metrics = [
-        (t["kpi_revenue"], compact_number(revenue, context.display_currency, context.language), spark.get("revenue"), "#1F4FD8"),
-        (t["kpi_direct"], compact_number(direct, context.display_currency, context.language), spark.get("direct"), "#1F4FD8"),
-        (t["kpi_indirect"], compact_number(indirect, context.display_currency, context.language), spark.get("indirect"), "#E08A00"),
-        (t["kpi_total_cost"], compact_number(total_cost, context.display_currency, context.language), spark.get("total_cost"), "#E08A00"),
-        (t["kpi_net"], compact_number(net, context.display_currency, context.language), spark.get("net"), "#0E9A8B"),
-        (t["kpi_margin"], _percentage(margin, context.language), spark.get("margin"), "#0E9A8B"),
-    ]
-    for column, (label, value, series, colour) in zip(columns, metrics):
-        with column:
-            kpi_card(label, value)
-            if series and len(series) > 1:
-                st.plotly_chart(
-                    sparkline(series, colour=colour), use_container_width=True,
-                    config={"displayModeBar": False}, key=f"spark_{label}",
-                )
 
     # ------------------------------------------------------------------
     # Category share (donut — 4-5 categories, a "share of the whole"
