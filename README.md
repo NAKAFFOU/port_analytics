@@ -151,16 +151,4 @@ none of them open a real Oracle connection. A separate, opt-in integration
 check exists for a real instance (`tests/test_oracle_integration.py`,
 gated behind `RUN_ORACLE_INTEGRATION_TESTS=true`).
 
-## 8. Further documentation
 
-| Document | Covers |
-| --- | --- |
-| `docs/ARCHITECTURE.md` | Stable canonical target model and source-system independence |
-| `docs/ORACLE_PBI_VIEWS.md` | Design decision behind the pre-allocated-view source and its control logic |
-| `docs/DASHBOARD_DESIGN.md` | Chart-type rationale for each of the six dashboard pages |
-| `docs/FX_DESIGN.md` | Foreign-exchange conversion objectives and rate policy |
-| `docs/SERVICE_CATALOG.md` | Bilingual definition of every category and finished product/service |
-| `docs/JDE_CONFIGURATION.md` | Checklist for connecting to a real Oracle/JD Edwards environment |
-| `docs/MIGRATION_FROM_V2.md` | What changed moving from the direct-table (v2) to the analytical-view (v3) source |
-| `docs/CHAPTER4_TECHNICAL_DOSSIER.md` | Dissertation Chapter 4 system description, aligned to this codebase |
-| `docs/CHAPTER5_EVALUATION_EVIDENCE.md` | Raw factual evidence supporting the dissertation's Chapter 5 evaluation |
